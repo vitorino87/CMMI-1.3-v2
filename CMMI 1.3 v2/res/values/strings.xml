@@ -1,0 +1,1509 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">CMMI 1.3</string>
+   <string name="CMMI">CMMI</string>
+	<string name="Avancar">Avançar</string>
+	<string name="q1">Três modelos do CMMI:</string>
+	<string name="q1a">a) CMMI-DEV, CMMI-ASC, CMMI-SVC</string>
+	<string name="q1b">b) CMMI-DEP, CMMI-ASC, CMMI-SVC</string>
+	<string name="q1c">c) CMMI-DEV, CMMI-ACQ, CMMI-SVC</string>
+	<string name="q1d">d) CMMI-DEP, CMMI-ASC, CMMI-SVS</string>
+	<string name="q1e">e) CMMI-DEV, CMMI-ASC, CMMI-SVS</string>
+	<string name="q2">O que é CMM?</string>
+	<string name="q2a">a) é o acrônimo de Capability Maturity Modern</string>
+	<string name="q2b">b) é uma linguagem de programação</string>
+	<string name="q2c">c) é um modelo desenvolvido pelo Serviço de Engenharia da Informação (SEI) da Universidade Carnegie-Mellon, EUA</string>
+	<string name="q2d">d) é um modelo desenvolvido pelo Instituto de Engenharia de Software da Universidade Carnegie-Mellon, EUA</string>
+	<string name="q2e">a) é o acrônimo de Capability Maturity Integration</string>
+	<string name="q3">Para que server o CMM?</string>
+	<string name="q3a">a) serve para dar às organizações diretrizes sobre como aprimorar o processo</string>
+	<string name="q3b">b) serve para dar às organizações sistemas computacionais prontos</string>
+	<string name="q3c">c) serve para ensinar como gerenciar uma empresa</string>
+	<string name="q3d">d) serve para direcionar a empresa no caminho da competência de gestão</string>
+	<string name="q3e">e) Nenhuma das respostas</string>
+	<string name="q4">O acrônimo de Software Process Improvement e Capacibility Determination e seu objeto é, respectivamente:</string>
+	<string name="q4a">a) ISO/SPICE, cujo objetivo é gerar sistemas que serão administrados pelo ISO/IEC para a avaliação do cliente</string>
+	<string name="q4b">b) SPI/CD, cujo objetivo é gerar normas ISO/SPICE para a avaliação de processos de software</string>
+	<string name="q4c">c) SPICE/ISO, cujo objetivo é gerar normas ISO/IECA para a avaliação de processos de sistemas operacionais</string>
+	<string name="q4d">d) ISO/SPICE, cujo objetivo é gerar normas ISO/ICE para a avaliação de processos de redes de contato</string>
+	<string name="q4e">e) ISO/SPICE, cujo objetivo é gerar normas ISO/IEC para a avaliação de processos de software</string>
+	<string name="q5">Qual a finalidade da ISO/IEC 12207?</string>
+	<string name="q5a">a) define um processo de desenvolvimento e manutenção de software e avaliação da qualidade do produto</string>
+	<string name="q5b">b) define um processo de ciclo de vida do software</string>
+	<string name="q5c">c) define um processo de ciclo de vida de uma norma ISO/IEC</string>
+	<string name="q5d">d) define a validade de um processo durante o seu desenvolvimento</string>
+	<string name="q5e">e) serve para ensinar os gestores a invadir sistemas das empresas concorrentes</string>
+	<string name="q6">Qual a finalidade da ISO/IEC 9000-3?</string>
+	<string name="q6a">a) Essa norma apresenta diretrizes para a aplicação da ISO 9000 (voltada para indústria), por empresas que desenvolvem software, para o processo de desenvolvimento e manutenção de software e avaliação da qualidade do produto</string>
+	<string name="q6b">b) Essa norma apresenta diretrizes para a aplicação da ISO 9001 (voltada para indústria), por empresas que desenvolvem software, para o processo de desenvolvimento e manutenção de software e avaliação da qualidade do produto</string>
+	<string name="q6c">c) Essa norma apresenta diretrizes para a aplicação da ISO 9002 (voltada para indústria), por empresas que desenvolvem software, para o processo de desenvolvimento e manutenção de software e avaliação da qualidade do produto</string>
+	<string name="q6d">d) Essa norma apresenta diretrizes para a aplicação da ISO 9003 (voltada para indústria), por empresas que desenvolvem software, para o processo de desenvolvimento e manutenção de software e avaliação da qualidade do produto</string>
+	<string name="q6e">e) Essa norma apresenta diretrizes para a aplicação da ISO 9004 (voltada para indústria), por empresas que desenvolvem software, para o processo de desenvolvimento e manutenção de software e avaliação da qualidade do produto</string>
+	<string name="q7">O que é qualidade de projeto?</string>
+	<string name="q7a">a) se refere a características que projetistas especificam para um processo de desenvolvimento. O enfoque é na implementação</string>
+	<string name="q7b">b) se refere ao grau, no qual, as especificações do projeto são seguidas durante o processo de desenvolvimento. O enfoque maior é na implementação</string>
+	<string name="q7c">c) se refere	a características que projetistas especificam para um item (desempenho, tolerância, etc.). O enfoque maior é nos requerimentos, na especificação e no projeto do sistema.</string>
+	<string name="q7d">d) se refere	a características que projetistas especificam para um item (desempenho, tolerância, etc.). O enfoque maior é na implementação, na especificação e no projeto do sistema</string>
+	<string name="q7e">e) se refere ao grau, no qual, as especificações do projeto são seguidas durante o processo de desenvolvimento. O enfoque maior é nos requerimentos, na especificação e no projeto do sistema.</string>
+	<string name="q8">Qualidade de conformidade:</string>
+	<string name="q8a">a) é	o grau, no qual, as	especificações do projeto são seguidas durante o processo de desenvolvimento. O enfoque maior é na implementação, na especificação e no projeto do sistema.</string>
+	<string name="q8b">b) se refere a características que projetistas especificam para um processo de desenvolvimento. O enfoque é na implementação</string>
+	<string name="q8c">c) é	o grau, no qual, as	especificações do projeto são seguidas durante o processo de desenvolvimento. O enfoque maior é nos requerimentos, na especificação e no projeto do sistema.</string>
+	<string name="q8d">d) se refere	a características que projetistas especificam para um item (desempenho, tolerância, etc.). O enfoque maior é na implementação, na especificação e no projeto do sistema</string>
+	<string name="q8e">e) é	o grau, no qual, as	especificações do projeto são seguidas durante o processo de desenvolvimento. O enfoque maior é na implementação. </string>
+	<string name="q9">Ao se examinar um item baseado em suas características mensuráveis, dois tipos de qualidade podem ser encontradas:</string>
+	<string name="q9a">a) qualidade de projeto e qualidade de conformidade</string>
+	<string name="q9b">b) qualidade de projeto e qualidade de software</string>
+	<string name="q9c">c) qualidade de conformidade e qualidade de software</string>
+	<string name="q9d">d) qualidade de projeto e qualidade de serviços</string>
+	<string name="q9e">e) qualidade de conformidade e qualidade de serviços</string>
+	<string name="q10">Definição de qualidade de software por Pressman95:</string>
+	<string name="q10a">a) conformidade a requisitos funcionais e de desempenho explicitamente declarados, a padrões de desenvolvimento claramente documentados e a características implícitas que não são esperadas de todo software profissionalmente desenvolvido</string>
+	<string name="q10b">b) conformidade a requisitos não funcionais e de desempenho explicitamente declarados, a padrões de desenvolvimento claramente documentados e a características implícitas que são esperadas de todo software profissionalmente desenvolvido</string>
+	<string name="q10c">c) conformidade a requisitos funcionais e de desempenho implicitamente declarados, a padrões de desenvolvimento claramente documentados e a características explícitas que são esperadas de todo software profissionalmente desenvolvido</string>
+	<string name="q10d">d) conformidade a requisitos não funcionais e de desempenho implicitamente declarados, a padrões de desenvolvimento claramente documentados e a características implícitas que são esperadas de todo software profissionalmente desenvolvido</string>
+	<string name="q10e">e) conformidade a requisitos funcionais e de desempenho explicitamente declarados, a padrões de desenvolvimento claramente documentados e a características implícitas que são esperadas de todo software profissionalmente desenvolvido</string>
+	<string name="q11">Segundo o modelo de qualidade de McCall, as seguintes características fazem parte do item Operação:</string>
+	<string name="q11a">a) manutenibilidade, portabilidade, reusabilidade, interoperabilidade</string>
+	<string name="q11b">b) correção, manutenibilidade, integridade, testabilidade</string>
+	<string name="q11c">c) manutenibilidade, flexibilidade, testabilidade</string>
+	<string name="q11d">d) correção, confiabilidade, integridade, eficiência</string>
+	<string name="q11e">e) portabilidade, reusabilidade, interoperabilidade, testabilidade</string>
+	<string name="q12">Segundo o modelo de qualidade de McCall, as seguintes características fazem parte do item Revisão:</string>
+	<string name="q12a">a) portabilidade, manutenibilidade, interoperabilidade</string>
+	<string name="q12b">b) manutenibilidade, flexibilidade, testabilidade</string>
+	<string name="q12c">c) manutenibilidade, flexibilidade, interoperabilidade</string>
+	<string name="q12d">d) correção, confiabilidade, eficiência</string>
+	<string name="q12e">e) portabilidade, reusabilidade, interoperabilidade</string>
+	<string name="q13">Segundo o modelo de qualidade de McCall, as seguintes características fazem parte do item Transição:</string>
+	<string name="q13a">a) portabilidade, manutenibilidade, interoperabilidade</string>
+	<string name="q13b">b) manutenibilidade, flexibilidade, testabilidade</string>
+	<string name="q13c">c) portabilidade, reusabilidade, interoperabilidade</string>
+	<string name="q13d">d) correção, confiabilidade, eficiência</string>
+	<string name="q13e">e) manutenibilidade, flexibilidade, interoperabilidade</string>
+	<string name="q14">Com relação ao uso do produto (características operacionais), correção é:</string>
+	<string name="q14a">a) o quanto um programa satisfaz a sua especificação e cumpre os objetivos visados pelo cliente;</string>
+	<string name="q14b">b) a quantidade de recursos computacionais e de código exigida para que um programa	execute	sua	função;</string>
+	<string name="q14c">c) o quanto	um programa	executa	a função pretendida	com	a precisão exigida;</string>
+	<string name="q14d">d) o quanto de esforço é necessário para aprender, preparar a entrada e interpretar a saída de um programa.</string>
+	<string name="q14e">e) o quanto o acesso ao software ou aos dados por pessoas não autorizadas pode	ser	controlado;</string>
+	<string name="q15">Com relação ao uso do produto (características operacionais), confiabilidade é:</string>
+	<string name="q15a">a) o quanto um programa satisfaz a sua especificação e cumpre os objetivos visados pelo cliente;</string>
+	<string name="q15b">b) a quantidade de recursos computacionais e de código exigida para que um programa	execute	sua	função;</string>
+	<string name="q15c">c) o quanto de esforço é necessário para aprender, preparar a entrada e interpretar a saída de um programa;</string>
+	<string name="q15d">d) o quanto	um programa	executa	a função pretendida	com	a precisão exigida;</string>
+	<string name="q15e">e) o quanto o acesso ao software ou aos dados por pessoas não autorizadas pode	ser	controlado;</string>
+	<string name="q16">Com relação ao uso do produto (características operacionais), eficiência é:</string>
+	<string name="q16a">a) o quanto um programa satisfaz a sua especificação e cumpre os objetivos visados pelo cliente;</string>
+	<string name="q16b">b) o quanto o acesso ao software ou aos dados por pessoas não autorizadas pode	ser	controlado;</string>
+	<string name="q16c">c) o quanto de esforço é necessário para aprender, preparar a entrada e interpretar a saída de um programa;</string>
+	<string name="q16d">d) o quanto	um programa	executa	a função pretendida	com	a precisão exigida;</string>
+	<string name="q16e">e) a quantidade de recursos computacionais e de código exigida para que um programa	execute	sua	função;</string>
+	<string name="q17">Com relação ao uso do produto (características operacionais), integridade é:</string>
+	<string name="q17a">a) o quanto um programa satisfaz a sua especificação e cumpre os objetivos visados pelo cliente;</string>
+	<string name="q17b">b) o quanto o acesso ao software ou aos dados por pessoas não autorizadas pode	ser	controlado;</string>
+	<string name="q17c">c) o quanto de esforço é necessário para aprender, preparar a entrada e interpretar a saída de um programa;</string>
+	<string name="q17d">d) o quanto	um programa	executa	a função pretendida	com	a precisão exigida;</string>
+	<string name="q17e">e) a quantidade de recursos computacionais e de código exigida para que um programa	execute	sua	função;</string>
+	<string name="q18">Com relação ao uso do produto (características operacionais), usabilidade é:</string>
+	<string name="q18a">a) o quanto um programa satisfaz a sua especificação e cumpre os objetivos visados pelo cliente;</string>
+	<string name="q18b">b) o quanto o acesso ao software ou aos dados por pessoas não autorizadas pode	ser	controlado;</string>
+	<string name="q18c">c) o quanto de esforço é necessário para aprender, preparar a entrada e interpretar a saída de um programa;</string>
+	<string name="q18d">d) o quanto	um programa	executa	a função pretendida	com	a precisão exigida;</string>
+	<string name="q18e">e) a quantidade de recursos computacionais e de código exigida para que um programa	execute	sua	função;</string>
+	<string name="q19">Com relação às alterações do produto (habilidade para ser alterado), manutenibilidade é:</string>
+	<string name="q19a">a) o quanto de esforço é necessário para localizar e eliminar erros em um programa;</string>
+	<string name="q19b">b) o quanto o acesso ao software ou aos dados por pessoas não autorizadas pode	ser	controlado;</string>
+	<string name="q19c">c) o quanto de esforço é necessário para aprender, preparar a entrada e interpretar a saída de um programa;</string>
+	<string name="q19d">d) o quanto	um programa	executa	a função pretendida	com	a precisão exigida;</string>
+	<string name="q19e">e) a quantidade de recursos computacionais e de código exigida para que um programa	execute	sua	função;</string>
+	<string name="q20">Com relação às alterações do produto (habilidade para ser alterado), flexibilidade é:</string>
+	<string name="q20a">a) o quanto de esforço é necessário para localizar e eliminar erros em um programa;</string>
+	<string name="q20b">b) o quanto o acesso ao software ou aos dados por pessoas não autorizadas pode	ser	controlado;</string>
+	<string name="q20c">c) o quanto de esforço é necessário para aprender, preparar a entrada e interpretar a saída de um programa;</string>
+	<string name="q20d">d) o quanto de esforço é necessário para modificar um programa;</string>
+	<string name="q20e">e) a quantidade de recursos computacionais e de código exigida para que um programa	execute	sua	função;</string>
+	<string name="q21">Com relação às alterações do produto (habilidade para ser alterado), testabilidade é:</string>
+	<string name="q21a">a) o quanto de esforço é necessário para localizar e eliminar erros em um programa;</string>
+	<string name="q21b">b) o quanto o acesso ao software ou aos dados por pessoas não autorizadas pode	ser	controlado;</string>
+	<string name="q21c">c) o quanto de esforço é necessário para aprender, preparar a entrada e interpretar a saída de um programa;</string>
+	<string name="q21d">d) o quanto de esforço é necessário para modificar um programa;</string>
+	<string name="q21e">e) o quanto de esforço é necessário para testar um programa a fim de garantir que ele execute a função pretendida;</string>
+	<string name="q22">Com relação a adaptabilidade a novos ambientes, portabilidade é:</string>
+	<string name="q22a">a) o quanto de esforço é necessário para localizar e eliminar erros em um programa;</string>
+	<string name="q22b">b) o quanto o acesso ao software ou aos dados por pessoas não autorizadas pode	ser	controlado;</string>
+	<string name="q22c">c) o quanto de esforço é necessário para transferir um programa de uma plataforma de hardware e/ou software para outra;</string>
+	<string name="q22d">d) o quanto de esforço é necessário para modificar um programa;</string>
+	<string name="q22e">e) o quanto de esforço é necessário para testar um programa a fim de garantir que ele execute a função pretendida;</string>
+	<string name="q23">Com relação a adaptabilidade a novos ambientes, reusabilidade é:</string>
+	<string name="q23a">a) o quanto um programa (ou partes dele) pode ser reutilizado em outros programas;</string>
+	<string name="q23b">b) o quanto o acesso ao software ou aos dados por pessoas não autorizadas pode	ser	controlado;</string>
+	<string name="q23c">c) o quanto de esforço é necessário para transferir um programa de uma plataforma de hardware e/ou software para outra;</string>
+	<string name="q23d">d) o quanto de esforço é necessário para modificar um programa;</string>
+	<string name="q23e">e) o quanto de esforço é necessário para testar um programa a fim de garantir que ele execute a função pretendida;</string>
+	<string name="q24">Com relação a adaptabilidade a novos ambientes, interoperabilidade é:</string>
+	<string name="q24a">a) o quanto um programa (ou partes dele) pode ser reutilizado em outros programas;</string>
+	<string name="q24b">b) o quanto de esforço é necessário para se acoplar um programa a outro;</string>
+	<string name="q24c">c) o quanto de esforço é necessário para transferir um programa de uma plataforma de hardware e/ou software para outra;</string>
+	<string name="q24d">d) o quanto de esforço é necessário para modificar um programa;</string>
+	<string name="q24e">e) o quanto de esforço é necessário para testar um programa a fim de garantir que ele execute a função pretendida;</string>
+	<string name="q25"> A qual característica pertence a seguinte questão: o software satisfaz às necessidades explícitas e implícitas do usuário?</string>
+	<string name="q25a">a) confiabilidade</string>
+	<string name="q25b">b) funcionalidade</string>
+	<string name="q25c">c) usabilidade</string>
+	<string name="q25d">d) eficiência</string>
+	<string name="q25e">e) manutenibilidade</string>
+	<string name="q26"> A qual característica pertence a seguinte questão: o software, durante um período de tempo, funciona de acordo com as condições preestabelecidas?</string>
+	<string name="q26a">a) eficiência</string>
+	<string name="q26b">b) funcionalidade</string>
+	<string name="q26c">c) usabilidade</string>
+	<string name="q26d">d) confiabilidade</string>
+	<string name="q26e">e) manutenibilidade</string>
+	<string name="q27"> A qual característica pertence a seguinte questão: o software é fácil de usar?</string>
+	<string name="q27a">a) eficiência</string>
+	<string name="q27b">b) funcionalidade</string>
+	<string name="q27c">c) usabilidade</string>
+	<string name="q27d">d) confiabilidade</string>
+	<string name="q27e">e) manutenibilidade</string>
+	<string name="q28"> A qual característica pertence a seguinte questão: o software não desperdiça recursos?</string>
+	<string name="q28a">a) eficiência</string>
+	<string name="q28b">b) funcionalidade</string>
+	<string name="q28c">c) usabilidade</string>
+	<string name="q28d">d) confiabilidade</string>
+	<string name="q28e">e) manutenibilidade</string>
+	<string name="q29"> A qual característica pertence a seguinte questão: o software é fácil de alterar?</string>
+	<string name="q29a">a) eficiência</string>
+	<string name="q29b">b) funcionalidade</string>
+	<string name="q29c">c) usabilidade</string>
+	<string name="q29d">d) confiabilidade</string>
+	<string name="q29e">e) manutenibilidade</string>
+	<string name="q30"> A qual característica pertence a seguinte questão: o software é facilmente adaptável a diferentes plataformas?</string>
+	<string name="q30a">a) eficiência</string>
+	<string name="q30b">b) funcionalidade</string>
+	<string name="q30c">c) portabilidade</string>
+	<string name="q30d">d) confiabilidade</string>
+	<string name="q30e">e) manutenibilidade</string>
+	<string name="q31"> A qual subcaracterística da Funcionalidade pertence a seguinte questão: propõe-se a fazer o que é apropriado?</string>
+	<string name="q31a">a) Adequação</string>
+	<string name="q31b">b) Acurácia</string>
+	<string name="q31c">c) Interoperabilidade</string>
+	<string name="q31d">d) Conformidade</string>
+	<string name="q31e">e) Segurança de acesso</string>
+	<string name="q32"> A qual subcaracterística da Funcionalidade pertence a seguinte questão: gera resultados corretos ou conforme acordado?</string>
+	<string name="q32a">a) Adequação</string>
+	<string name="q32b">b) Acurácia</string>
+	<string name="q32c">c) Interoperabilidade</string>
+	<string name="q32d">d) Conformidade</string>
+	<string name="q32e">e) Segurança de acesso</string>
+	<string name="q33"> A qual subcaracterística da Funcionalidade pertence a seguinte questão: é capaz de interagir com os sistemas especiﬁcados?</string>
+	<string name="q33a">a) Adequação</string>
+	<string name="q33b">b) Acurácia</string>
+	<string name="q33c">c) Interoperabilidade</string>
+	<string name="q33d">d) Conformidade</string>
+	<string name="q33e">e) Segurança de acesso</string>
+	<string name="q34"> A qual subcaracterística da Funcionalidade pertence a seguinte questão: está de acordo com normas e convenções previstas em leis, normas e descrições similares?</string>
+	<string name="q34a">a) Adequação</string>
+	<string name="q34b">b) Acurácia</string>
+	<string name="q34c">c) Interoperabilidade</string>
+	<string name="q34d">d) Conformidade</string>
+	<string name="q34e">e) Segurança de acesso</string>
+	<string name="q35"> A qual subcaracterística da Funcionalidade pertence a seguinte questão: evita o acesso não autorizado, acidental ou deliberado acesso a programa e dados?</string>
+	<string name="q35a">a) Adequação</string>
+	<string name="q35b">b) Acurácia</string>
+	<string name="q35c">c) Interoperabilidade</string>
+	<string name="q35d">d) Conformidade</string>
+	<string name="q35e">e) Segurança de acesso</string>
+	<string name="q36"> A qual subcaracterística da Confiabilidade pertence a seguinte questão: com que frequência apresenta falhas?</string>
+	<string name="q36a">a) Maturidade</string>
+	<string name="q36b">b) Acurácia</string>
+	<string name="q36c">c) Interoperabilidade</string>
+	<string name="q36d">d) Conformidade</string>
+	<string name="q36e">e) Segurança de acesso</string>
+	<string name="q37"> A qual subcaracterística da Confiabilidade pertence a seguinte questão: ocorrendo falhas, como ele reage?</string>
+	<string name="q37a">a) Maturidade</string>
+	<string name="q37b">b) Tolerância a falhas</string>
+	<string name="q37c">c) Interoperabilidade</string>
+	<string name="q37d">d) Conformidade</string>
+	<string name="q37e">e) Segurança de acesso</string>
+	<string name="q38"> A qual subcaracterística da Confiabilidade pertence a seguinte questão: é capaz de recuperar dados após uma falha?</string>
+	<string name="q38a">a) Maturidade</string>
+	<string name="q38b">b) Acurácia</string>
+	<string name="q38c">c) Recuperabilidade</string>
+	<string name="q38d">d) Conformidade</string>
+	<string name="q38e">e) Segurança de acesso</string>
+	<string name="q39"> A qual subcaracterística da Usabilidade pertence a seguinte questão: é fácil entender os conceitos utilizados?</string>
+	<string name="q39a">a) Maturidade</string>
+	<string name="q39b">b) Acurácia</string>
+	<string name="q39c">c) Inteligibilidade</string>
+	<string name="q39d">d) Conformidade</string>
+	<string name="q39e">e) Segurança de acesso</string>
+	<string name="q40"> A qual subcaracterística da Usabilidade pertence a seguinte questão: é fácil de aprender a usar?</string>
+	<string name="q40a">a) Maturidade</string>
+	<string name="q40b">b) Acurácia</string>
+	<string name="q40c">c) Recuperabilidade</string>
+	<string name="q40d">d) Apreensibilidade</string>
+	<string name="q40e">e) Segurança de acesso</string>
+	<string name="q41"> A qual subcaracterística da Usabilidade pertence a seguinte questão: é fácil de operar e controlar a operação?</string>
+	<string name="q41a">a) Inteligibilidade</string>
+	<string name="q41b">b) Acurácia</string>
+	<string name="q41c">c) Recuperabilidade</string>
+	<string name="q41d">d) Apreensibilidade</string>
+	<string name="q41e">e) Operacionalidade</string>
+	<string name="q42"> A qual subcaracterística da Eficiência pertence a seguinte questão: qual é o tempo de resposta e de processamento?</string>
+	<string name="q42a">a) Inteligibilidade</string>
+	<string name="q42b">b) Acurácia</string>
+	<string name="q42c">c) Recuperabilidade</string>
+	<string name="q42d">d) Comportamento em relação tempo</string>
+	<string name="q42e">e) Operacionalidade</string>
+	<string name="q43"> A qual subcaracterística da Eficiência pertence as seguintes questões: quanto recurso usa? Durante quanto tempo?</string>
+	<string name="q43a">a) Comportamento em relação aos recursos</string>
+	<string name="q43b">b) Acurácia</string>
+	<string name="q43c">c) Recuperabilidade</string>
+	<string name="q43d">d) Comportamento em relação tempo</string>
+	<string name="q43e">e) Operacionalidade</string>
+	<string name="q44"> A qual subcaracterística da Manutenibilidade pertence a seguinte questão: é fácil encontrar um erro quando ocorre?</string>
+	<string name="q44a">a) Comportamento em relação aos recursos</string>
+	<string name="q44b">b) Analisabilidade</string>
+	<string name="q44c">c) Recuperabilidade</string>
+	<string name="q44d">d) Comportamento em relação tempo</string>
+	<string name="q44e">e) Operacionalidade</string>
+	<string name="q45"> A qual subcaracterística da Manutenibilidade pertence a seguinte questão: é	fácil modificar e remover erros?</string>
+	<string name="q45a">a) Comportamento em relação aos recursos</string>
+	<string name="q45b">b) Modificabilidade</string>
+	<string name="q45c">c) Recuperabilidade</string>
+	<string name="q45d">d) Analisabilidade</string>
+	<string name="q45e">e) Operacionalidade</string>
+	<string name="q46"> A qual subcaracterística da Manutenibilidade pertence a seguinte questão: há grandes riscos de erros quando se faz alterações?</string>
+	<string name="q46a">a) Analisabilidade</string>
+	<string name="q46b">b) Modificabilidade</string>
+	<string name="q46c">c) Recuperabilidade</string>
+	<string name="q46d">d) Estabilidade</string>
+	<string name="q46e">e) Operacionalidade</string>
+	<string name="q47"> A qual subcaracterística da Manutenibilidade pertence a seguinte questão: é fácil testar quando se faz alterações?</string>
+	<string name="q47a">a) Analisabilidade</string>
+	<string name="q47b">b) Modificabilidade</string>
+	<string name="q47c">c) Recuperabilidade</string>
+	<string name="q47d">d) Estabilidade</string>
+	<string name="q47e">e) Testabilidade</string>
+	<string name="q48"> A qual subcaracterística da Portabilidade pertence a seguinte questão: é fácil adaptar a outras plataformas sem aplicar outras ações ou meios além dos fornecidos para esta finalidade no software considerado?</string>
+	<string name="q48a">a) Analisabilidade</string>
+	<string name="q48b">b) Modificabilidade</string>
+	<string name="q48c">c) Recuperabilidade</string>
+	<string name="q48d">d) Estabilidade</string>
+	<string name="q48e">e) Adaptabilidade</string>
+	<string name="q49"> A qual subcaracterística da Portabilidade pertence a seguinte questão: é fácil instalar em outras plataformas?</string>
+	<string name="q49a">a) Analisabilidade</string>
+	<string name="q49b">b) Modificabilidade</string>
+	<string name="q49c">c) Recuperabilidade</string>
+	<string name="q49d">d) Capacidade para instalar</string>
+	<string name="q49e">e) Adaptabilidade</string>
+	<string name="q50"> A qual subcaracterística da Portabilidade pertence a seguinte questão: é fácil substituir por outro software?</string>
+	<string name="q50a">a) Analisabilidade</string>
+	<string name="q50b">b) Modificabilidade</string>
+	<string name="q50c">c) Capacidade para substituir</string>
+	<string name="q50d">d) Capacidade para instalar</string>
+	<string name="q50e">e) Adaptabilidade</string>
+	<string name="q51"> A qual subcaracterística da Portabilidade pertence a seguinte questão: está de acordo com padrões e convenções de portabilidade?</string>
+	<string name="q51a">a) Analisabilidade</string>
+	<string name="q51b">b) Conformidade</string>
+	<string name="q51c">c) Capacidade para substituir</string>
+	<string name="q51d">d) Capacidade para instalar</string>
+	<string name="q51e">e) Adaptabilidade</string>
+	<string name="q52"> Quais são os principais objetivos da qualidade?\n
+	    1. Aprimorar o processo de desenvolvimento e, em consequência, melhorar a qualidade do produto resultante. \n
+	    2. Avaliar a qualidade do produto, visando emitir documento oﬁcial sobre a qualidade de um software e sua conformidade em relação a uma norma ou padrão. \n
+	    3. Adquirir um software, com o intuito de escolher o produto mais adequado dentre um conjunto de produtos selecionados.</string>
+	<string name="q52a">a) Somente o 1 está correto</string>
+	<string name="q52b">b) Somente o 2 está correto</string>
+	<string name="q52c">c) Somente o 1 e o 3 estão corretos</string>
+	<string name="q52d">d) Somente o 2 e o 3 estão corretos</string>
+	<string name="q52e">e) Todas estão corretas</string>	
+	<string name="q53"> Para que server a ISO/IEC 9126 (NBR 13596)?</string>
+	<string name="q53a">a) define as características de qualidade de software que devem estar presentes em todos os produtos</string>
+	<string name="q53b">b) apresenta diretrizes para a aplicação da ISO 9001 (voltada para indústria),  por  empresas  que  desenvolvem  software,  para  o  processo  de  desenvolvimento  e manutenção de software e avaliação da qualidade do produto.</string>
+	<string name="q53c">c) estabelece os requisitos de qualidade para pacotes de software e instruções para teste, considerando esses requisitos.</string>
+	<string name="q53d">d) define um processo de avaliação da qualidade de produto de software.</string>
+	<string name="q53e">e) define um processo de ciclo de vida do software.</string>
+	<string name="q54"> Para que server a ISO/IEC 12119?</string>
+	<string name="q54a">a) define as características de qualidade de software que devem estar presentes em todos os produtos</string>
+	<string name="q54b">b) apresenta diretrizes para a aplicação da ISO 9001 (voltada para indústria),  por  empresas  que  desenvolvem  software,  para  o  processo  de  desenvolvimento  e manutenção de software e avaliação da qualidade do produto.</string>
+	<string name="q54c">c) estabelece os requisitos de qualidade para pacotes de software e instruções para teste, considerando esses requisitos.</string>
+	<string name="q54d">d) define um processo de avaliação da qualidade de produto de software.</string>
+	<string name="q54e">e) define um processo de ciclo de vida do software.</string>
+	<string name="q55"> Para que server a ISO/IEC 14598-5?</string>
+	<string name="q55a">a) define as características de qualidade de software que devem estar presentes em todos os produtos</string>
+	<string name="q55b">b) apresenta diretrizes para a aplicação da ISO 9001 (voltada para indústria),  por  empresas  que  desenvolvem  software,  para  o  processo  de  desenvolvimento  e manutenção de software e avaliação da qualidade do produto.</string>
+	<string name="q55c">c) estabelece os requisitos de qualidade para pacotes de software e instruções para teste, considerando esses requisitos.</string>
+	<string name="q55d">d) define um processo de avaliação da qualidade de produto de software.</string>
+	<string name="q55e">e) define um processo de ciclo de vida do software.</string>
+	<string name="q56"> Como poderá ser feita a avaliação da qualidade do protudo de software?\n
+	    1. Através de Organismos de certifição. \n
+	    2. Avaliar in-house. \n
+	    3. Através da contratação de empresas para avaliação. \n
+	    4. Através do usuário. </string>
+	<string name="q56a">a) Somente a 1</string>
+	<string name="q56b">b) Somente a 1, a 2 e a 3</string>
+	<string name="q56c">c) Somente a 1, a 2 e a 4.</string>
+	<string name="q56d">d) Somente a 2, a 3, e a 4</string>
+	<string name="q56e">e) Todas estão corretas</string>
+	<string name="q57"> Segundo o IEEE610.12-1990, falha (Fault - Bug) é:</string>
+	<string name="q57a">a) define as características de qualidade de software que devem estar presentes em todos os produtos</string>
+	<string name="q57b">b) Diferença entre o valor obtido e o valor esperado, ou seja, qualquer estado intermediário incorreto ou resultado inesperado na execução do software.</string>
+	<string name="q57c">c) estabelece os requisitos de qualidade para pacotes de software e instruções para teste, considerando esses requisitos.</string>
+	<string name="q57d">d) Incorreção em um passo, processo ou definição de dados; manifestação no software de um engano cometido pelo desenvolvedor.</string>
+	<string name="q57e">e) Incapacidade de fornecer o serviço, conforme especificado.</string>
+	<string name="q58"> Segundo o IEEE610.12-1990, Erro (Error) é:</string>
+	<string name="q58a">a) define as características de qualidade de software que devem estar presentes em todos os produtos</string>
+	<string name="q58b">b) Diferença entre o valor obtido e o valor esperado, ou seja, qualquer estado intermediário incorreto ou resultado inesperado na execução do software.</string>
+	<string name="q58c">c) estabelece os requisitos de qualidade para pacotes de software e instruções para teste, considerando esses requisitos.</string>
+	<string name="q58d">d) Incorreção em um passo, processo ou definição de dados; manifestação no software de um engano cometido pelo desenvolvedor.</string>
+	<string name="q58e">e) Incapacidade de fornecer o serviço, conforme especificado.</string>
+	<string name="q59"> Segundo o IEEE610.12-1990, Defeito (Failure) é:</string>
+	<string name="q59a">a) define as características de qualidade de software que devem estar presentes em todos os produtos</string>
+	<string name="q59b">b) Diferença entre o valor obtido e o valor esperado, ou seja, qualquer estado intermediário incorreto ou resultado inesperado na execução do software.</string>
+	<string name="q59c">c) estabelece os requisitos de qualidade para pacotes de software e instruções para teste, considerando esses requisitos.</string>
+	<string name="q59d">d) Incorreção em um passo, processo ou definição de dados; manifestação no software de um engano cometido pelo desenvolvedor.</string>
+	<string name="q59e">e) Incapacidade de fornecer o serviço, conforme especificado.</string>
+	<string name="q60"> Por quais motivos surge falhas?</string>
+	<string name="q60a">a) Alterações, Tempo, Complexidade</string>
+	<string name="q60b">b) Alterações, Tempo</string>
+	<string name="q60c">c) Complexidade</string>
+	<string name="q60d">d) Alteração</string>
+	<string name="q60e">e) Complexidade e Pressa.</string>
+	<string name="q61"> O que é garantia da qualidade do software?</string>
+	<string name="q61a">a) Segundo Sommerville, é o padrão sistemático e planejado de ações que não são exigidas para garantir a qualidade do software</string>
+	<string name="q61b">b) Segundo Sommerville, é a definição de um arcabouço para se atingir a qualidade da linguagem de programação</string>
+	<string name="q61c">c) Segundo Sommerville, é a definição de um arcabouço para se atingir a qualidade do produto de software</string>
+	<string name="q61d">d) Segundo Pressman, é o padrão sistemático e desorientado de  ações  que  são  exigidas  para  garantir  a  qualidade  do software</string>
+	<string name="q61e">e) Segundo Pressman, é o padrão invariável e desorientado de  ações  que  são  exigidas  para  garantir  a  qualidade  do software</string>
+	<string name="q62"> O que é garantia da qualidade do software?</string>
+	<string name="q62a">a) Segundo Sommerville, é o padrão sistemático e planejado de ações que não são exigidas para garantir a qualidade do software</string>
+	<string name="q62b">b) Segundo Sommerville, é a definição de um arcabouço para se atingir a qualidade da linguagem de programação</string>
+	<string name="q62c">c) Segundo Sommerville, é a definição de um arcabouço para se desfazer da qualidade do produto de software</string>
+	<string name="q62d">d) Segundo Pressman, é o padrão sistemático e desorientado de  ações  que  são  exigidas  para  garantir  a  qualidade  do software</string>
+	<string name="q62e">e) Segundo Pressman, é o padrão sistemático e planejado de  ações  que  são  exigidas  para  garantir  a  qualidade  do software</string>
+	<string name="q63"> Quais questões a Garantia da Qualidade de Software deve atender?</string>
+	<string name="q63a">a) O software atende às características de qualidade desejadas?</string>
+	<string name="q63b">b) As disciplinas técnicas cumpriram adequadamente seus papéis como parte da atividade de Garantia da Qualidade?</string>
+	<string name="q63c">c) O desenvolvimento do software foi conduzido conforme os padrões preestabelecidos?</string>
+	<string name="q63d">d) O software atende às características de qualidade desejadas? As disciplinas técnicas cumpriram adequadamente seus papéis como parte da atividade de Garantia da Qualidade?</string>
+	<string name="q63e">e) O software atende às características de qualidade desejadas? O desenvolvimento do software foi conduzido conforme os padrões preestabelecidos? As disciplinas técnicas cumpriram adequadamente seus papéis como parte da atividade de Garantia da Qualidade?</string>
+	<string name="q64"> Segundo Pressman, quais são as atividades da Garantia de Qualidade?</string>
+	<string name="q64a">a) Aplicação de métodos, técnicas e ferramentas, uso pelos desenvolvedores de métodos e ferramentas que ajudem a conseguir especificações, projetos, etc., de maior qualidade.</string>
+	<string name="q64b">b) Realização de revisões técnicas, cujo objetivo é avaliar a qualidade do artefato de software (especificação, projeto, ...) produzido ao longo do desenvolvimento.</string>
+	<string name="q64c">c) Atividades de testes em complemento às revisões e outras técnicas.</string>
+	<string name="q64d">d) Aplicação de padrões</string>
+	<string name="q64e">e) Todas alternativas</string>
+	<string name="q65"> Segundo Pressman, a aplicação de padrões:</string>
+	<string name="q65a">a) podem ser usados para documentos, documentação do código e estilo de codificação (como usar linguagem de programação). Também podem ser determinados pelo cliente, por normas internacionais ou pela empresa de desenvolvimento.</string>
+	<string name="q65b">b) podem realizar revisões técnicas, cujo objetivo é avaliar a qualidade do artefato de software (especificação, projeto, ...) produzido ao longo do desenvolvimento.</string>
+	<string name="q65c">c) podem testar em complemento às revisões e outras técnicas.</string>
+	<string name="q65d">d) podem gerir a empresa</string>
+	<string name="q65e">e) Todas alternativas</string>
+	<string name="q66"> Em relação as atividades da Garantia da Qualidade de Software, controle de alterações:</string>
+	<string name="q66a">a) podem ser usados para documentos, documentação do código e estilo de codificação (como usar linguagem de programação). Também podem ser determinados pelo cliente, por normas internacionais ou pela empresa de desenvolvimento.</string>
+	<string name="q66b">b) podem realizar revisões técnicas, cujo objetivo é avaliar a qualidade do artefato de software (especificação, projeto, ...) produzido ao longo do desenvolvimento.</string>
+	<string name="q66c">c) manter  histórico  com  resultados  de  revisões, auditorias, controle de alterações e outras atividades de garantia de qualidade, que devem ser levados ao conhecimento dos desenvolvedores..</string>
+	<string name="q66d">d) toda mudança no software tem potencial para introduzir erros ou criar efeitos colaterais, que propagam erros no controle de mudanças durante desenvolvimento e manutenção, sendo essencial para garantir a qualidade do software.</string>
+	<string name="q66e">e) obtenção de métricas a fim de rastrear a qualidade do software e avaliar o impacto de mudanças nos métodos e procedimentos usados para desenvolvimento e manutenção.</string>
+	<string name="q67"> Em relação as atividades da Garantia da Qualidade de Software, medição:</string>
+	<string name="q67a">a) podem ser usados para documentos, documentação do código e estilo de codificação (como usar linguagem de programação). Também podem ser determinados pelo cliente, por normas internacionais ou pela empresa de desenvolvimento.</string>
+	<string name="q67b">b) podem realizar revisões técnicas, cujo objetivo é avaliar a qualidade do artefato de software (especificação, projeto, ...) produzido ao longo do desenvolvimento.</string>
+	<string name="q67c">c) manter  histórico  com  resultados  de  revisões, auditorias, controle de alterações e outras atividades de garantia de qualidade, que devem ser levados ao conhecimento dos desenvolvedores..</string>
+	<string name="q67d">d) toda mudança no software tem potencial para introduzir erros ou criar efeitos colaterais, que propagam erros no controle de mudanças durante desenvolvimento e manutenção, sendo essencial para garantir a qualidade do software.</string>
+	<string name="q67e">e) obtenção de métricas a fim de rastrear a qualidade do software e avaliar o impacto de mudanças nos métodos e procedimentos usados para desenvolvimento e manutenção.</string>
+	<string name="q68"> Em relação as atividades da Garantia da Qualidade de Software, anotação e manutenção de registro:</string>
+	<string name="q68a">a) podem ser usados para documentos, documentação do código e estilo de codificação (como usar linguagem de programação). Também podem ser determinados pelo cliente, por normas internacionais ou pela empresa de desenvolvimento.</string>
+	<string name="q68b">b) podem realizar revisões técnicas, cujo objetivo é avaliar a qualidade do artefato de software (especificação, projeto, ...) produzido ao longo do desenvolvimento.</string>
+	<string name="q68c">c) manter  histórico  com  resultados  de  revisões, auditorias, controle de alterações e outras atividades de garantia de qualidade, que devem ser levados ao conhecimento dos desenvolvedores..</string>
+	<string name="q68d">d) toda mudança no software tem potencial para introduzir erros ou criar efeitos colaterais, que propagam erros no controle de mudanças durante desenvolvimento e manutenção, sendo essencial para garantir a qualidade do software.</string>
+	<string name="q68e">e) obtenção de métricas a fim de rastrear a qualidade do software e avaliar o impacto de mudanças nos métodos e procedimentos usados para desenvolvimento e manutenção.</string>
+	<string name="q69"> O que o CMM fornece às organizações?</string>
+	<string name="q69a">a) fornece documentos, documentação do código e estilo de codificação (como usar linguagem de programação). Também normas internacionais ou pela empresa de desenvolvimento.</string>
+	<string name="q69b">b) fornece revisões técnicas, cujo objetivo é avaliar a qualidade do artefato de software (especificação, projeto, ...) produzido ao longo do desenvolvimento.</string>
+	<string name="q69c">c) fornece um  histórico  com  resultados  de  revisões, auditorias, controle de alterações e outras atividades de garantia de qualidade, que devem ser levados ao conhecimento dos desenvolvedores..</string>
+	<string name="q69d">d) fornece que toda mudança no software tem potencial para introduzir erros ou criar efeitos colaterais, que propagam erros no controle de mudanças durante desenvolvimento e manutenção, sendo essencial para garantir a qualidade do software.</string>
+	<string name="q69e">e) fornece às organizações uma orientação sobre como adquirir controle do processo de desenvolvimento de software e como avançar para uma cultura padrão na gestão de software.</string>
+	<string name="q70"> Qual o principal objetivo do CMM?</string>
+	<string name="q70a">a) O objetivo principal é fornecer documentos, documentação do código e estilo de codificação (como usar linguagem de programação). Também normas internacionais ou pela empresa de desenvolvimento.</string>
+	<string name="q70b">b) O objetivo principal é acompanhar, por meio dos níveis de maturidade, a realização de um processo controlado e mensurado que tem como fundamento a melhoria contínua.</string>
+	<string name="q70c">c) O objetivo principal é auditorias, controle de alterações e outras atividades de garantia de qualidade, que devem ser levados ao conhecimento dos desenvolvedores..</string>
+	<string name="q70d">d) O objetivo principal é introduzir erros ou criar efeitos colaterais, que propagam erros no controle de mudanças durante desenvolvimento e manutenção, sendo essencial para garantir a qualidade do software.</string>
+	<string name="q70e">e) O objetivo principal é acompanhar, por meio dos níveis de maturidade, a realização de um processo descontrolado e mensurar com fundamento a melhoria contínua. </string>
+	<string name="q71"> O que é áreas-chave do processo (KPAs - Key Process Areas)?</string>
+	<string name="q71a">a) É um nível de maturidade</string>
+	<string name="q71b">b) É um conjunto de práticas de software e de gestão específicas. Também é um meio de medir a qualidade dos desenvolvedores</string>
+	<string name="q71c">c) É uma certificação para a empresa</string>
+	<string name="q71d">d) É um conjunto de práticas de software e de gestão específicas. Cada nível de maturidade corresponde um KPAs, exceto o primeiro</string>
+	<string name="q71e">e) É um conjunto de práticas de software e de gestão específicas. Porém não corresponde a qualquer nível de maturidade.</string>
+	<string name="q72"> Quais são os níveis de maturidade do CMM?</string>
+	<string name="q72a">a) Inicial, Repetível, Definido, Gerenciado, Otimizado</string>
+	<string name="q72b">b) Inicial, Incompleto, Definido, Gerenciado Quantitativamente, Otimizado</string>
+	<string name="q72c">c) Incompleto, Repetível, Definido, Gerenciado, Otimizado </string>
+	<string name="q72d">d) Incompleto, Repetível, Definido, Gerenciado Quantitativamente, Otimizado</string>
+	<string name="q72e">e) Nenhuma das alternativas</string>
+	<string name="q73"> Qual é o nível e o nome do nível de maturidade do CMM, cujos processos normalmente são ad hoc, a organização não dispõe de um ambiente estável e devido ao imediatismo raramente produz um produto ou serviço que funcione?</string>
+	<string name="q73a">a) Nível 1 - Repetível - frequentemente, eles excedem o orçamento e o prazo em seus projetos</string>
+	<string name="q73b">b) Nível 0 - Incompleto - frequentemente, eles excedem o orçamento e o prazo em seus projetos</string>
+	<string name="q73c">c) Nível 1 - Inicial - frequentemente, eles excedem o orçamento e o prazo em seus projetos </string>
+	<string name="q73d">d) Nível 1 - Inicial - frequentemente, eles não excedem o orçamento, mas excedem o prazo em seus projetos</string>
+	<string name="q73e">e) Nível 0 - Repetível - frequentemente, eles excedem o orçamento e o prazo em seus projetos</string>
+	<string name="q74"> Qual é o nível e o nome do nível de maturidade do CMM, cujos processos de desenvolvimento de software é repetido. O status do projeto e os serviços entregues são visíveis ao gerenciamento. Mas ainda há um risco significativo de exceder os custos e estimativas de prazo?</string>
+	<string name="q74a">a) Nível 2 - Repetível - Técnicas de gerenciamento de projetos são estabelecidas para mapear custos, prazos e funcionalidades.</string>
+	<string name="q74b">b) Nível 2 - Repetível - frequentemente, eles não excedem o orçamento, nem o prazo em seus projetos</string>
+	<string name="q74c">c) Nível 2 - Inicial - um mínimo de disciplina nos processos é estabelecido para que se possa repetir sucessos anteriores em projetos com escopo e aplicação similar </string>
+	<string name="q74d">d) Nível 1 - Inicial - frequentemente, eles não excedem o orçamento, mas excedem o prazo em seus projetos</string>
+	<string name="q74e">e) Nível 1 - Repetível - frequentemente, eles não excedem o orçamento, mas excedem o prazo em seus projetos</string>
+	<string name="q75"> Qual é o nível e o nome do nível de maturidade do CMM, cuja a organização possui um conjunto de processos padrão, que estão estabelecidos e melhorados periodicamente? Neste nível os padrões, descrições de processo e procedimentos para o projeto são guiados pelo conjunto padrão de processos da organização.</string>
+	<string name="q75a">a) Nível 2 - Repetível - Técnicas de gerenciamento de projetos são estabelecidas para mapear custos, prazos e funcionalidades.</string>
+	<string name="q75b">b) Nível 2 - Repetível - frequentemente, eles não excedem o orçamento, nem o prazo em seus projetos</string>
+	<string name="q75c">c) Nível 3 - Definido - um mínimo de disciplina nos processos é estabelecido para que se possa repetir sucessos anteriores em projetos com escopo e aplicação similar </string>
+	<string name="q75d">d) Nível 1 - Inicial - frequentemente, eles não excedem o orçamento, mas excedem o prazo em seus projetos</string>
+	<string name="q75e">e) Nível 3 - Definido - O gerenciamento da organização estabelece os objetivos dos processos, baseado no conjunto de padrões pré-definidos e garante que estes objetivos sejam encaminhados de forma apropriada. </string>
+	<string name="q76"> Qual é o nível e o nome do nível de maturidade do CMM, cujas organizações neste nível conseguem metas quantitativas para o processo de desenvolvimento de software e de manutenção?</string>
+	<string name="q76a">a) Nível 4 - Definido - Técnicas de gerenciamento de projetos são estabelecidas para mapear custos, prazos e funcionalidades.</string>
+	<string name="q76b">b) Nível 3 - Repetível - frequentemente, eles não excedem o orçamento, nem o prazo em seus projetos</string>
+	<string name="q76c">c) Nível 3 - Definido - um mínimo de disciplina nos processos é estabelecido para que se possa repetir sucessos anteriores em projetos com escopo e aplicação similar </string>
+	<string name="q76d">d) Nível 4 - Gerenciado - Utilizando métricas precisas, o gerenciamento pode efetivamente controlar os esforços para desenvolvimento de software</string>
+	<string name="q76e">e) Nível 3 - Gerenciado - O gerenciamento da organização estabelece os objetivos dos processos, baseado no conjunto de padrões pré-definidos e garante que estes objetivos sejam encaminhados de forma apropriada. </string>
+	<string name="q77"> Qual é o nível e o nome do nível de maturidade do CMM, cujo foco é no contínuo aumento do desempenho dos processos por meio de melhorias de inovação tecnológica e incremental.</string>
+	<string name="q77a">a) Nível 4 - Definido - Técnicas de gerenciamento de projetos são estabelecidas para mapear custos, prazos e funcionalidades.</string>
+	<string name="q77b">b) Nível 5 - Otimizado - Objetivos de melhoria quantitativa dos processos para a organização são estabelecidos, continuamente revisados, refletindo os objetivos da organização e usando critérios de gerência de processos. </string>
+	<string name="q77c">c) Nível 5 - Otimizado - um mínimo de disciplina nos processos é estabelecido para que se possa repetir sucessos anteriores em projetos com escopo e aplicação similar </string>
+	<string name="q77d">d) Nível 5 - Gerenciado - Utilizando métricas precisas, o gerenciamento pode efetivamente controlar os esforços para desenvolvimento de software</string>
+	<string name="q77e">e) Nível 3 - Otimizado - O gerenciamento da organização estabelece os objetivos dos processos, baseado no conjunto de padrões pré-definidos e garante que estes objetivos sejam encaminhados de forma apropriada. </string>
+	<string name="q78"> Quais são as áreas-chaves de processo do nível repetível?</string>
+	<string name="q78a">a) Gerenciamento de requisitos, Planejamento de Projeto, Visão geral e acompanhamento do projeto, Gerenciamento de subcontratados, Garantia da qualidade do software, Foco do processo organizacional</string>
+	<string name="q78b">b) Gerenciamento de requisitos, Planejamento de Projeto, Visão geral e acompanhamento do projeto, Gerenciamento de subcontratados, Definição do processo organizacional, Foco do processo organizacional </string>
+	<string name="q78c">c) Gerenciamento de requisitos, Programa de treinamento, Visão geral e acompanhamento do projeto, Gerenciamento de subcontratados, Garantia da qualidade do software, Foco do processo organizacional </string>
+	<string name="q78d">d) Gerenciamento de requisitos, Planejamento de Projeto, Visão geral e acompanhamento do projeto, Gerenciamento de subcontratados, Garantia da qualidade do software, Gerenciamento de configuração</string>
+	<string name="q78e">e) Gerenciamento de requisitos, Planejamento de Projeto, Visão geral e acompanhamento do projeto, Gerenciamento de subcontratados, Garantia da qualidade do software, Definição do processo organizacional</string>
+	<string name="q79"> Quais são as áreas-chaves de processo do nível definido?</string>
+	<string name="q79a">a) Foco do processo organizacional, definição do processo organizacional, programa de treinamento, gerenciamento de software integrado</string>
+	<string name="q79b">b) Gerenciamento de requisitos, Planejamento de Projeto, Visão geral e acompanhamento do projeto, Gerenciamento de subcontratados, Definição do processo organizacional, Foco do processo organizacional </string>
+	<string name="q79c">c) Foco do processo organizacional, definição do processo organizacional, programa de treinamento, gerenciamento de software integrado, engenharia de produto de software, coordenação intergrupos, revisão conjunta</string>
+	<string name="q79d">d) Gerenciamento de requisitos, Planejamento de Projeto, Visão geral e acompanhamento do projeto, Gerenciamento de subcontratados, Garantia da qualidade do software, Gerenciamento de configuração</string>
+	<string name="q79e">e) Foco do processo organizacional, definição do processo organizacional, programa de treinamento, gerenciamento de software integrado, engenharia de produto de software, coordenação intergrupos, Definição do processo organizacional</string>
+	<string name="q80"> Quais são as áreas-chaves de processo do nível gerenciado?</string>
+	<string name="q80a">a) Gerenciamento quantitativo dos processos, gerenciamento da qualidade de software</string>
+	<string name="q80b">b) Gerenciamento de requisitos, Planejamento de Projeto, Visão geral e acompanhamento do projeto, Gerenciamento de subcontratados, Definição do processo organizacional, Foco do processo organizacional </string>
+	<string name="q80c">c) Foco do processo organizacional, definição do processo organizacional, programa de treinamento, gerenciamento de software integrado, engenharia de produto de software, coordenação intergrupos, revisão conjunta</string>
+	<string name="q80d">d) Gerenciamento de requisitos, Gerenciamento quantitativo dos processos, gerenciamento da qualidade de software</string>
+	<string name="q80e">e) Foco do processo organizacional, Gerenciamento quantitativo dos processos, gerenciamento da qualidade de software, Definição do processo organizacional</string>
+	<string name="q81"> Quais são as áreas-chaves de processo do nível otimizado?</string>
+	<string name="q81a">a) Gerenciamento quantitativo dos processos, gerenciamento da qualidade de software</string>
+	<string name="q81b">b) Gerenciamento de requisitos, Planejamento de Projeto, Visão geral e acompanhamento do projeto</string>
+	<string name="q81c">c) Prevenção de defeitos, gerenciamento de mudanças tecnológicas, gerenciamento de software integrado, revisão conjunta</string>
+	<string name="q81d">d) Prevenção de defeitos, gerenciamento de mudanças tecnológicas, Gerenciamento de requisitos, Gerenciamento quantitativo dos processos, gerenciamento da qualidade de software</string>
+	<string name="q81e">e) Prevenção de defeitos, gerenciamento de mudanças tecnológicas, gerenciamento de mudanças no processo</string>
+	<string name="q82"> Das opções abaixo, qual delas está falando sobre a área chave gerenciamento de subcontratados do nível repetível?</string>
+	<string name="q82a">a) Estimativas relativas ao software são documentadas para uso no planejamento e acompanhamento do projeto do software. As atividades de projeto de software e compromissos assumidos são planejadas e documentadas;</string>
+	<string name="q82b">b) Os requisitos do sistema são controlados de forma a estabelecer um perfil mínimo a ser utilizado pela engenharia de software e pela administração. Os planos, produtos e atividades do software são sempre consistentes com os requisitos de sistema;</string>
+	<string name="q82c">c) O contratante seleciona subcontratos qualificados. Ele os subcontratados estão de acordo no que diz respeito aos compromissos assumidos um com o outro e mantém uma comunicação constante. O contratante acompanha os resultados reais do subcontratado, de acordo com os compromissos assumidos;</string>
+	<string name="q82d">d) Resultados reais são acompanhados de acordo com o planejamento do software. Quando os resultados apresentam um significativo desvio do planejamento do software, são tomadas ações corretivas, que são acompanhadas até o final do projeto. Mudanças nos compromissos assumidos são feitas em comum acordo com os grupos e indivíduos afetados;</string>
+	<string name="q82e">e) As atividades são planejadas. A conformidade dos produtos de software e atividades com os padrões, procedimentos e requisitos é verificada objetivamente. Os grupos e indivíduos afetados são informados das atividades de garantia de qualidade de software e de seus resultados. Questões relacionadas a não conformidade que não são resolvidas dentro do projeto de software são encaminhadas à gerência geral;</string>
+	<string name="q83"> Das opções abaixo, qual delas está falando sobre a área chave gerenciamento de requisitos do nível repetível?</string>
+	<string name="q83a">a) Estimativas relativas ao software são documentadas para uso no planejamento e acompanhamento do projeto do software. As atividades de projeto de software e compromissos assumidos são planejadas e documentadas;</string>
+	<string name="q83b">b) Os requisitos do sistema são controlados de forma a estabelecer um perfil mínimo a ser utilizado pela engenharia de software e pela administração. Os planos, produtos e atividades do software são sempre consistentes com os requisitos de sistema;</string>
+	<string name="q83c">c) O contratante seleciona subcontratos qualificados. Ele os subcontratados estão de acordo no que diz respeito aos compromissos assumidos um com o outro e mantém uma comunicação constante. O contratante acompanha os resultados reais do subcontratado, de acordo com os compromissos assumidos;</string>
+	<string name="q83d">d) Resultados reais são acompanhados de acordo com o planejamento do software. Quando os resultados apresentam um significativo desvio do planejamento do software, são tomadas ações corretivas, que são acompanhadas até o final do projeto. Mudanças nos compromissos assumidos são feitas em comum acordo com os grupos e indivíduos afetados;</string>
+	<string name="q83e">e) As atividades são planejadas. A conformidade dos produtos de software e atividades com os padrões, procedimentos e requisitos é verificada objetivamente. Os grupos e indivíduos afetados são informados das atividades de garantia de qualidade de software e de seus resultados. Questões relacionadas a não conformidade que não são resolvidas dentro do projeto de software são encaminhadas à gerência geral;</string>
+	<string name="q84"> Das opções abaixo, qual delas está falando sobre a área chave planejamento do projeto do nível repetível?</string>
+	<string name="q84a">a) Estimativas relativas ao software são documentadas para uso no planejamento e acompanhamento do projeto do software. As atividades de projeto de software e compromissos assumidos são planejadas e documentadas;</string>
+	<string name="q84b">b) Os requisitos do sistema são controlados de forma a estabelecer um perfil mínimo a ser utilizado pela engenharia de software e pela administração. Os planos, produtos e atividades do software são sempre consistentes com os requisitos de sistema;</string>
+	<string name="q84c">c) O contratante seleciona subcontratos qualificados. Ele os subcontratados estão de acordo no que diz respeito aos compromissos assumidos um com o outro e mantém uma comunicação constante. O contratante acompanha os resultados reais do subcontratado, de acordo com os compromissos assumidos;</string>
+	<string name="q84d">d) Resultados reais são acompanhados de acordo com o planejamento do software. Quando os resultados apresentam um significativo desvio do planejamento do software, são tomadas ações corretivas, que são acompanhadas até o final do projeto. Mudanças nos compromissos assumidos são feitas em comum acordo com os grupos e indivíduos afetados;</string>
+	<string name="q84e">e) As atividades são planejadas. A conformidade dos produtos de software e atividades com os padrões, procedimentos e requisitos é verificada objetivamente. Os grupos e indivíduos afetados são informados das atividades de garantia de qualidade de software e de seus resultados. Questões relacionadas a não conformidade que não são resolvidas dentro do projeto de software são encaminhadas à gerência geral;</string>
+	<string name="q85"> Das opções abaixo, qual delas está falando sobre a área chave Visão geral e acompanhamento do projeto do nível repetível?</string>
+	<string name="q85a">a) Estimativas relativas ao software são documentadas para uso no planejamento e acompanhamento do projeto do software. As atividades de projeto de software e compromissos assumidos são planejadas e documentadas;</string>
+	<string name="q85b">b) Os requisitos do sistema são controlados de forma a estabelecer um perfil mínimo a ser utilizado pela engenharia de software e pela administração. Os planos, produtos e atividades do software são sempre consistentes com os requisitos de sistema;</string>
+	<string name="q85c">c) O contratante seleciona subcontratos qualificados. Ele os subcontratados estão de acordo no que diz respeito aos compromissos assumidos um com o outro e mantém uma comunicação constante. O contratante acompanha os resultados reais do subcontratado, de acordo com os compromissos assumidos;</string>
+	<string name="q85d">d) Resultados reais são acompanhados de acordo com o planejamento do software. Quando os resultados apresentam um significativo desvio do planejamento do software, são tomadas ações corretivas, que são acompanhadas até o final do projeto. Mudanças nos compromissos assumidos são feitas em comum acordo com os grupos e indivíduos afetados;</string>
+	<string name="q85e">e) As atividades são planejadas. A conformidade dos produtos de software e atividades com os padrões, procedimentos e requisitos é verificada objetivamente. Os grupos e indivíduos afetados são informados das atividades de garantia de qualidade de software e de seus resultados. Questões relacionadas a não conformidade que não são resolvidas dentro do projeto de software são encaminhadas à gerência geral;</string>
+	<string name="q86"> Das opções abaixo, qual delas está falando sobre a área chave garantia da qualidade do software do nível repetível?</string>
+	<string name="q86a">a) Estimativas relativas ao software são documentadas para uso no planejamento e acompanhamento do projeto do software. As atividades de projeto de software e compromissos assumidos são planejadas e documentadas;</string>
+	<string name="q86b">b) Os requisitos do sistema são controlados de forma a estabelecer um perfil mínimo a ser utilizado pela engenharia de software e pela administração. Os planos, produtos e atividades do software são sempre consistentes com os requisitos de sistema;</string>
+	<string name="q86c">c) O contratante seleciona subcontratos qualificados. Ele os subcontratados estão de acordo no que diz respeito aos compromissos assumidos um com o outro e mantém uma comunicação constante. O contratante acompanha os resultados reais do subcontratado, de acordo com os compromissos assumidos;</string>
+	<string name="q86d">d) Resultados reais são acompanhados de acordo com o planejamento do software. Quando os resultados apresentam um significativo desvio do planejamento do software, são tomadas ações corretivas, que são acompanhadas até o final do projeto. Mudanças nos compromissos assumidos são feitas em comum acordo com os grupos e indivíduos afetados;</string>
+	<string name="q86e">e) As atividades são planejadas. A conformidade dos produtos de software e atividades com os padrões, procedimentos e requisitos é verificada objetivamente. Os grupos e indivíduos afetados são informados das atividades de garantia de qualidade de software e de seus resultados. Questões relacionadas a não conformidade que não são resolvidas dentro do projeto de software são encaminhadas à gerência geral;</string>
+	<string name="q87"> Das opções abaixo, qual delas está falando sobre a área chave gerenciamento de configuração do nível repetível?</string>
+	<string name="q87a">a) Estimativas relativas ao software são documentadas para uso no planejamento e acompanhamento do projeto do software. As atividades de projeto de software e compromissos assumidos são planejadas e documentadas;</string>
+	<string name="q87b">b) Os requisitos do sistema são controlados de forma a estabelecer um perfil mínimo a ser utilizado pela engenharia de software e pela administração. Os planos, produtos e atividades do software são sempre consistentes com os requisitos de sistema;</string>
+	<string name="q87c">c) As atividades de gerenciamento de configuração são planejadas. Os produtos de trabalho de software são identificados, controlados e estão disponíveis. Mudanças nos produtos de trabalho identificados são controlados. Os grupos e pessoas afetadas são informados da situação atual e projetada dos produtos de trabalho de software.</string>
+	<string name="q87d">d) Resultados reais são acompanhados de acordo com o planejamento do software. Quando os resultados apresentam um significativo desvio do planejamento do software, são tomadas ações corretivas, que são acompanhadas até o final do projeto. Mudanças nos compromissos assumidos são feitas em comum acordo com os grupos e indivíduos afetados;</string>
+	<string name="q87e">e) As atividades são planejadas. A conformidade dos produtos de software e atividades com os padrões, procedimentos e requisitos é verificada objetivamente. Os grupos e indivíduos afetados são informados das atividades de garantia de qualidade de software e de seus resultados. Questões relacionadas a não conformidade que não são resolvidas dentro do projeto de software são encaminhadas à gerência geral;</string>
+	<string name="q88"> Das opções abaixo, qual delas está falando sobre a área chave foco do processo organizacional do nível definido?</string>
+	<string name="q88a">a) São coordenadas atividades de desenvolvimento e melhoramento do processo de software em toda a organização. Os pontos fortes e fracos do processo de desenvolvimento de software utilizado são identificados, de acordo com um padrão de processo. São planejadas atividades de desenvolvimento e melhoramento do processo em nível de organização;</string>
+	<string name="q88b">b) O processo padrão de desenvolvimento de software da organização é desenvolvido e mantido. A informação relacionada ao uso do processo padrão de desenvolvimento de software é coletada, revisada e disponibilizada;</string>
+	<string name="q88c">c) As atividades são planejadas. É  fornecido  treinamento  para  o  desenvolvimento  de  habilidades  e  conhecimentos necessários para realizar o gerenciamento do software e as funções técnicas, tanto para o grupo de engenharia de software, quanto para outros relacionados ao desenvolvimento;</string>
+	<string name="q88d">d) O  processo  de  software  definido  para  o projeto é uma versão adaptada do processo padrão de desenvolvimento de software da organização. O projeto é planejado e gerenciado de acordo com este padrão;</string>
+	<string name="q88e">e) As atividades são definidas, integradas e consistentemente realizadas para produzir o software;</string>
+	<string name="q89"> Das opções abaixo, qual delas está falando sobre a área chave definição do processo organizacional do nível definido?</string>
+	<string name="q89a">a) São coordenadas atividades de desenvolvimento e melhoramento do processo de software em toda a organização. Os pontos fortes e fracos do processo de desenvolvimento de software utilizado são identificados, de acordo com um padrão de processo. São planejadas atividades de desenvolvimento e melhoramento do processo em nível de organização;</string>
+	<string name="q89b">b) O processo padrão de desenvolvimento de software da organização é desenvolvido e mantido. A informação relacionada ao uso do processo padrão de desenvolvimento de software é coletada, revisada e disponibilizada;</string>
+	<string name="q89c">c) As atividades são planejadas. É  fornecido  treinamento  para  o  desenvolvimento  de  habilidades  e  conhecimentos necessários para realizar o gerenciamento do software e as funções técnicas, tanto para o grupo de engenharia de software, quanto para outros relacionados ao desenvolvimento;</string>
+	<string name="q89d">d) O  processo  de  software  definido  para  o projeto é uma versão adaptada do processo padrão de desenvolvimento de software da organização. O projeto é planejado e gerenciado de acordo com este padrão;</string>
+	<string name="q89e">e) As atividades são definidas, integradas e consistentemente realizadas para produzir o software;</string>
+	<string name="q90"> Das opções abaixo, qual delas está falando sobre a área chave programa de treinamento do nível definido?</string>
+	<string name="q90a">a) São coordenadas atividades de desenvolvimento e melhoramento do processo de software em toda a organização. Os pontos fortes e fracos do processo de desenvolvimento de software utilizado são identificados, de acordo com um padrão de processo. São planejadas atividades de desenvolvimento e melhoramento do processo em nível de organização;</string>
+	<string name="q90b">b) O processo padrão de desenvolvimento de software da organização é desenvolvido e mantido. A informação relacionada ao uso do processo padrão de desenvolvimento de software é coletada, revisada e disponibilizada;</string>
+	<string name="q90c">c) As atividades são planejadas. É  fornecido  treinamento  para  o  desenvolvimento  de  habilidades  e  conhecimentos necessários para realizar o gerenciamento do software e as funções técnicas, tanto para o grupo de engenharia de software, quanto para outros relacionados ao desenvolvimento;</string>
+	<string name="q90d">d) O  processo  de  software  definido  para  o projeto é uma versão adaptada do processo padrão de desenvolvimento de software da organização. O projeto é planejado e gerenciado de acordo com este padrão;</string>
+	<string name="q90e">e) As atividades são definidas, integradas e consistentemente realizadas para produzir o software;</string>
+	<string name="q91"> Das opções abaixo, qual delas está falando sobre a área chave gerenciamento de software integrado do nível definido?</string>
+	<string name="q91a">a) São coordenadas atividades de desenvolvimento e melhoramento do processo de software em toda a organização. Os pontos fortes e fracos do processo de desenvolvimento de software utilizado são identificados, de acordo com um padrão de processo. São planejadas atividades de desenvolvimento e melhoramento do processo em nível de organização;</string>
+	<string name="q91b">b) O processo padrão de desenvolvimento de software da organização é desenvolvido e mantido. A informação relacionada ao uso do processo padrão de desenvolvimento de software é coletada, revisada e disponibilizada;</string>
+	<string name="q91c">c) As atividades são planejadas. É  fornecido  treinamento  para  o  desenvolvimento  de  habilidades  e  conhecimentos necessários para realizar o gerenciamento do software e as funções técnicas, tanto para o grupo de engenharia de software, quanto para outros relacionados ao desenvolvimento;</string>
+	<string name="q91d">d) O  processo  de  software  definido  para  o projeto é uma versão adaptada do processo padrão de desenvolvimento de software da organização. O projeto é planejado e gerenciado de acordo com este padrão;</string>
+	<string name="q91e">e) As atividades são definidas, integradas e consistentemente realizadas para produzir o software;</string>
+	<string name="q92"> Das opções abaixo, qual delas está falando sobre a área chave engenharia de produto de software do nível definido?</string>
+	<string name="q92a">a) São coordenadas atividades de desenvolvimento e melhoramento do processo de software em toda a organização. Os pontos fortes e fracos do processo de desenvolvimento de software utilizado são identificados, de acordo com um padrão de processo. São planejadas atividades de desenvolvimento e melhoramento do processo em nível de organização;</string>
+	<string name="q92b">b) O processo padrão de desenvolvimento de software da organização é desenvolvido e mantido. A informação relacionada ao uso do processo padrão de desenvolvimento de software é coletada, revisada e disponibilizada;</string>
+	<string name="q92c">c) As atividades são planejadas. É  fornecido  treinamento  para  o  desenvolvimento  de  habilidades  e  conhecimentos necessários para realizar o gerenciamento do software e as funções técnicas, tanto para o grupo de engenharia de software, quanto para outros relacionados ao desenvolvimento;</string>
+	<string name="q92d">d) O  processo  de  software  definido  para  o projeto é uma versão adaptada do processo padrão de desenvolvimento de software da organização. O projeto é planejado e gerenciado de acordo com este padrão;</string>
+	<string name="q92e">e) As atividades são definidas, integradas e consistentemente realizadas para produzir o software;</string>
+	<string name="q93"> Das opções abaixo, qual delas está falando sobre a área chave coordenação intergrupos do nível definido?</string>
+	<string name="q93a">a) São coordenadas atividades de desenvolvimento e melhoramento do processo de software em toda a organização. Os pontos fortes e fracos do processo de desenvolvimento de software utilizado são identificados, de acordo com um padrão de processo. São planejadas atividades de desenvolvimento e melhoramento do processo em nível de organização;</string>
+	<string name="q93b">b) O processo padrão de desenvolvimento de software da organização é desenvolvido e mantido. A informação relacionada ao uso do processo padrão de desenvolvimento de software é coletada, revisada e disponibilizada;</string>
+	<string name="q93c">c) Os  grupos de engenharia identificam, acompanham e resolvem todas as questões intergrupos. Todos os grupos de trabalho afetados concordam com os requisitos do cliente e com os acordos entre os grupos de engenharia;</string>
+	<string name="q93d">d) O  processo  de  software  definido  para  o projeto é uma versão adaptada do processo padrão de desenvolvimento de software da organização. O projeto é planejado e gerenciado de acordo com este padrão;</string>
+	<string name="q93e">e) As atividades são definidas, integradas e consistentemente realizadas para produzir o software;</string>
+	<string name="q94"> Das opções abaixo, qual delas está falando sobre a área chave coordenação intergrupos do nível definido?</string>
+	<string name="q94a">a) São coordenadas atividades de desenvolvimento e melhoramento do processo de software em toda a organização. Os pontos fortes e fracos do processo de desenvolvimento de software utilizado são identificados, de acordo com um padrão de processo. São planejadas atividades de desenvolvimento e melhoramento do processo em nível de organização;</string>
+	<string name="q94b">b) O processo padrão de desenvolvimento de software da organização é desenvolvido e mantido. A informação relacionada ao uso do processo padrão de desenvolvimento de software é coletada, revisada e disponibilizada;</string>
+	<string name="q94c">c) Os  grupos  de  engenharia  identificam,  acompanham  e resolvem todas as questões intergrupos. Todos os grupos de trabalho afetados concordam com os requisitos do cliente e com os acordos entre os grupos de engenharia;</string>
+	<string name="q94d">d) Atividades de revisão conjunta são planejadas. Defeitos nos produtos de trabalho são identificados e removidos</string>
+	<string name="q94e">e) As atividades são definidas, integradas e consistentemente realizadas para produzir o software;</string>
+	<string name="q95"> Das opções abaixo, qual delas está falando sobre a área chave gerenciamento quantitativo dos processos do nível gerenciado?</string>
+	<string name="q95a">a) As  atividades são planejadas. O desempenho do processo de desenvolvimento de  software  definido  é  controlada  quantitativamente.  A  capacidade  do  processo  de desenvolvimento de software padrão da organização é conhecida em termos quantitativos;</string>
+	<string name="q95b">b) O processo padrão de desenvolvimento de software da organização é desenvolvido e mantido. A informação relacionada ao uso do processo padrão de desenvolvimento de software é coletada, revisada e disponibilizada;</string>
+	<string name="q95c">c) Os  grupos  de  engenharia  identificam,  acompanham  e resolvem todas as questões intergrupos. Todos os grupos de trabalho afetados concordam com os requisitos do cliente e com os acordos entre os grupos de engenharia;</string>
+	<string name="q95d">d) Atividades são planejadas. Defeitos nos produtos de trabalho são identificados e removidos</string>
+	<string name="q95e">e) As atividades são definidas, integradas e consistentemente realizadas para produzir o software;</string>
+	<string name="q96"> Das opções abaixo, qual delas está falando sobre a área chave gerenciamento da qualidade de software do nível gerenciado?</string>
+	<string name="q96a">a) As  atividades são planejadas. O desempenho do processo de desenvolvimento de  software  definido  é  controlada  quantitativamente.  A  capacidade  do  processo  de desenvolvimento de software padrão da organização é conhecida em termos quantitativos;</string>
+	<string name="q96b">b) O processo padrão de desenvolvimento de software da organização é desenvolvido e mantido. A informação relacionada ao uso do processo padrão de desenvolvimento de software é coletada, revisada e disponibilizada;</string>
+	<string name="q96c">c) As atividades são planejadas. Objetivos mensuráveis da qualidade do produto de software e suas prioridades são definidos</string>
+	<string name="q96d">d) Atividades são planejadas. Defeitos nos produtos de trabalho são identificados e removidos</string>
+	<string name="q96e">e) As atividades são definidas, integradas e consistentemente realizadas para produzir o software;</string>
+	<string name="q97"> Das opções abaixo, qual delas está falando sobre a área chave prevenção de defeitos do nível otimizado do CMM?</string>
+	<string name="q97a">a) As  atividades são planejadas. O desempenho do processo de desenvolvimento de  software  definido  é  controlada  quantitativamente.  A  capacidade  do  processo  de desenvolvimento de software padrão da organização é conhecida em termos quantitativos;</string>
+	<string name="q97b">b) As atividades são planejadas. As causas comuns de defeitos são procuradas, identificadas e sistematicamente eliminadas;</string>
+	<string name="q97c">c) As atividades são planejadas. Objetivos mensuráveis da qualidade do produto de software e suas prioridades são definidos</string>
+	<string name="q97d">d) A incorporação é planejada. Novas tecnologias são avaliadas para determinar seu efeito na qualidade e na produtividade e as adequadas são incorporadas na prática normal de toda a organização</string>
+	<string name="q97e">e) O melhoramento contínuo do processo é planejado. Toda a organização participa das atividades de melhoramento do processo de software. O padrão de processo de software da organização e os processos de software de cada projeto definido são melhorados continuamente.</string>
+	<string name="q98"> Das opções abaixo, qual delas está falando sobre a área chave gerenciamento de mudanças tecnológicas do nível otimizado do CMM?</string>
+	<string name="q98a">a) As  atividades são planejadas. O desempenho do processo de desenvolvimento de  software  definido  é  controlada  quantitativamente.  A  capacidade  do  processo  de desenvolvimento de software padrão da organização é conhecida em termos quantitativos;</string>
+	<string name="q98b">b) As atividades são planejadas. As causas comuns de defeitos são procuradas, identificadas e sistematicamente eliminadas;</string>
+	<string name="q98c">c) As atividades são planejadas. Objetivos mensuráveis da qualidade do produto de software e suas prioridades são definidos</string>
+	<string name="q98d">d) A incorporação é planejada. Novas tecnologias são avaliadas para determinar seu efeito na qualidade e na produtividade e as adequadas são incorporadas na prática normal de toda a organização</string>
+	<string name="q98e">e) O melhoramento contínuo do processo é planejado. Toda a organização participa das atividades de melhoramento do processo de software. O padrão de processo de software da organização e os processos de software de cada projeto definido são melhorados continuamente.</string>
+	<string name="q99"> Das opções abaixo, qual delas está falando sobre a área chave gerenciamento de mudanças no processo do nível otimizado do CMM?</string>
+	<string name="q99a">a) As  atividades são planejadas. O desempenho do processo de desenvolvimento de  software  definido  é  controlada  quantitativamente.  A  capacidade  do  processo  de desenvolvimento de software padrão da organização é conhecida em termos quantitativos;</string>
+	<string name="q99b">b) As atividades são planejadas. As causas comuns de defeitos são procuradas, identificadas e sistematicamente eliminadas;</string>
+	<string name="q99c">c) As atividades são planejadas. Objetivos mensuráveis da qualidade do produto de software e suas prioridades são definidos</string>
+	<string name="q99d">d) A incorporação é planejada. Novas tecnologias são avaliadas para determinar seu efeito na qualidade e na produtividade e as adequadas são incorporadas na prática normal de toda a organização</string>
+	<string name="q99e">e) O melhoramento contínuo do processo é planejado. Toda a organização participa das atividades de melhoramento do processo de software. O padrão de processo de software da organização e os processos de software de cada projeto definido são melhorados continuamente.</string>
+	<string name="q100"> O que é/são CMM?</string>
+	<string name="q100a">a) São as atividades de desempenho do processo de desenvolvimento de  software  definido </string>
+	<string name="q100b">b) é um modelo descritivo, no sentido de descrever atributos essenciais (ou chave) que seriam esperados para caracterizar uma organização em um nível particular de maturidade</string>
+	<string name="q100c">c) é um modelo indescritivo, os objetivos mensuráveis da qualidade do produto de software e suas prioridades são definidos</string>
+	<string name="q100d">d) Sua incorporação é planejada. Novas linguagens de programação são avaliadas para determinar seu efeito na qualidade e na produtividade e as adequadas são incorporadas na prática normal de toda a organização</string>
+	<string name="q100e">e) é um modelo indescritivo, mas toda a organização participa das atividades de melhoramento do processo de software. O padrão de processo de software da organização e os processos de software de cada projeto definido são melhorados continuamente.</string>
+	<string name="q101"> O que é/são CMM?</string>
+	<string name="q101a">a) São as atividades de desempenho do processo de desenvolvimento de  software  definido </string>
+	<string name="q101b">b) É um modelo normativo, no sentido de que as práticas detalhadas caracterizam os tipos normais de comportamento que seriam esperados em uma organização que desenvolve projetos em larga escala num contexto de contratação governamental.</string>
+	<string name="q101c">c) é um modelo indescritivo, os objetivos mensuráveis da qualidade do produto de software e suas prioridades são definidos</string>
+	<string name="q101d">d) Sua incorporação é planejada. Novas linguagens de programação são avaliadas para determinar seu efeito na qualidade e na produtividade e as adequadas são incorporadas na prática normal de toda a organização</string>
+	<string name="q101e">e) é um modelo informal, mas toda a organização participa das atividades de melhoramento do processo de software. O padrão de processo de software da organização e os processos de software de cada projeto definido são melhorados continuamente.</string>
+	<string name="q102"> A intenção é que o _________ tenha um nível suficiente de __________ que não restrinja desnecessariamente a maneira que o processo de ___________ é implementado pela organização</string>
+	<string name="q102a">a) CMMI; substração; software</string>
+	<string name="q102b">b) CMM; substração; qualidade</string>
+	<string name="q102c">c) ISO/SPICE; abstração; engenharia</string>
+	<string name="q102d">d) CMM; abstração; software</string>
+	<string name="q102e">e) CMMI; abstração; qualidade</string>
+	<string name="q103"> O _________ simplesmente descreve o que normalmente seria esperado dos ____________ essenciais do ____________ de software.</string>
+	<string name="q103a">a) CMMI; projetos; processo</string>
+	<string name="q103b">b) CMMI; atributos; nível</string>
+	<string name="q103c">c) CMM; atributos; processo</string>
+	<string name="q103d">d) CMM; projetos; nível</string>
+	<string name="q103e">e) CMMI; projetos; processo</string>
+	<string name="q104"> O _________ deve ser interpretado apropriadamente, utilizando-se o conhecimento de __________ quando o ambiente ____________ da organização difere significativamente de uma grande organização fornecedora.</string>
+	<string name="q104a">a) CMM; peritos; comercial</string>
+	<string name="q104b">b) CMMI; atributos; comercial</string>
+	<string name="q104c">c) CMM; atributos; gerencial</string>
+	<string name="q104d">d) CMM; peritos; gerencial</string>
+	<string name="q104e">e) CMMI; projetos; processo</string>
+	<string name="q105"> O CMM não é __________; ele não diz à organização como __________. O CMM descreve a organização em cada nível de __________ sem prescrever os meios específicos para consegui-lo.</string>
+	<string name="q105a">a) informativo; melhorar; imaturidade</string>
+	<string name="q105b">b) imprescritivo; piorar; maturidade</string>
+	<string name="q105c">c) prescritivo; piorar; maturidade</string>
+	<string name="q105d">d) descritivo; melhorar; imaturidade</string>
+	<string name="q105e">e) prescritivo; melhorar; maturidade; </string>
+	<string name="q106"> Com o CMM pode levar __________ anos para se passar do Nível 1 para o __________; a movimentação entre os outros níveis geralmente levará cerca de __________ anos.</string>
+	<string name="q106a">a) vários; Nível 2; um</string>
+	<string name="q106b">b) poucos; Nível 3; dois</string>
+	<string name="q106c">c) poucos; Nível 2; um</string>
+	<string name="q106d">d) vários; Nível 2; dois</string>
+	<string name="q106e">e) vários; Nível 3; um </string>
+	<string name="q107"> O CMM não é uma bala de prata [BROOKS, 1987] e não trata ____________ os ____________ que são importantes para o ___________ dos projetos.</string>
+	<string name="q107a">a) todos; profissionais; insucesso</string>
+	<string name="q107b">b) todos; níveis; insucesso</string>
+	<string name="q107c">c) todos; assuntos; sucesso</string>
+	<string name="q107d">d) quaisquer; profissionais; sucesso</string>
+	<string name="q107e">e) quaisquer; assuntos; sucesso </string>
+	<string name="q108"> o CMM não indica __________ em domínios específicos de aplicações, não defende tecnologias específicas de __________, nem sugere como selecionar, contratar, motivar e reter __________ competentes.</string>
+	<string name="q108a">a) peritos; servidores; stackholders</string>
+	<string name="q108b">b) peritos; software; pessoas</string>
+	<string name="q108c">c) gerentes; servidroes; stackholders</string>
+	<string name="q108d">d) software; softwares; pessoas</string>
+	<string name="q108e">e) software; servidores; stackholders </string>
+	<string name="q109"> O CMM foi especificamente desenvolvido para prover uma estrutura ____________ e ____________ dentro da qual possa se encaminhar assuntos de processo de gestão e desenvolvimento de ___________.</string>
+	<string name="q109a">a) ordenada; disciplinada; software</string>
+	<string name="q109b">b) ordenada; indisciplinada; ações</string>
+	<string name="q109c">c) orientada; indisciplinada; software</string>
+	<string name="q109d">d) desordenada; disciplinada; ações</string>
+	<string name="q109e">e) ordenada; desordenada; software </string>
+	<string name="q110"> Para que serve as métricas de qualidade de software?</string>
+	<string name="q110a">a) Nós utilizamos medidas, porque as atividades de desempenho do processo de desenvolvimento de software são definidos</string>
+	<string name="q110b">b) Nós utilizamos medidas no sentido de que as práticas detalhadas caracterizam os tipos normais de comportamento que seriam esperados em uma organização que desenvolve projetos em larga escala num contexto de contratação governamental.</string>
+	<string name="q110c">c) Nós usamos medidas, porque os objetivos mensuráveis da qualidade do produto de software e suas prioridades são definidos</string>
+	<string name="q110d">d) Nós usamos medidas, porque novas linguagens de programação são avaliadas para determinar seu efeito na qualidade e na produtividade e as adequadas são incorporadas na prática normal de toda a organização</string>
+	<string name="q110e">e) Nós usamos medidas, para melhor entendermos os atributos dos modelos que criamos e, o mais importante, é que nós usamos medidas para avaliarmos a qualidade dos produtos de engenharia ou sistemas que nós construímos.</string>
+	<string name="q111"> 1. Nós tentamos derivar um conjunto de medidas indiretas que levam a métricas que fornecem uma indicação de qualidade de alguma representação do software. \n
+	    2. Embora as métricas para software não sejam absolutas, elas fornecem uma maneira de avaliar qualidade por meio de um conjunto de regras definidas.\n
+	    3. Pessoas podem ser experientes em SQA (Garantia de Qualidade de Software) sem, no entanto, serem experientes em projeto de software.</string>
+	<string name="q111a">a) falso; falso; falso</string>
+	<string name="q111b">b) falso; falso; verdadeiro</string>
+	<string name="q111c">c) verdadeiro; verdadeiro; verdadeiro</string>
+	<string name="q111d">d) verdadeiro; verdadeiro; falso</string>
+	<string name="q111e">e) verdadeiro; falso; veradeiro</string>
+	<string name="q112"> Qual o papel da Garantia de Qualidade de Software (SQA)?</string>
+	<string name="q112a">a) O papel de SQA é gerar atividades de desempenho do processo de desenvolvimento de software definidos</string>
+	<string name="q112b">b) O papel de SQA é monitorar medidas no sentido de que as práticas detalhadas caracterizam os tipos normais de comportamento que seriam esperados em uma organização que desenvolve projetos em larga escala num contexto de contratação governamental.</string>
+	<string name="q112c">c) O papel de SQA é mensurar a qualidade do produto de software e suas prioridades definidas</string>
+	<string name="q112d">d) O papel de SQA é monitorar os métodos e os padrões que os engenheiros de software usam e verificar se eles estão usando apropriadamente seus conhecimentos</string>
+	<string name="q112e">e) O papel de SQA é medir para melhor entendermos os atributos dos modelos que criamos e, o mais importante, é que nós usamos SQA para avaliarmos a qualidade dos produtos de engenharia ou sistemas que nós construímos.</string>
+	<string name="q113"> Em SQA (Garantia de Qualidade de Software) temos uma variadade de tarefas, que podem ser dividas em dois grandes grupos:</string>
+	<string name="q113a">a) Engenheiros de software que fazem o trabalho técnico e o grupo de SQA, que tem responsabilidade no plano de qualidade, na inspeção, na conservação de registros históricos, na análise e no reporting das atividades de SQA para o gerente do projeto</string>
+	<string name="q113b">b) Engenheiros de software que fazem o trabalho técnico e o grupo de stackholders, que tem responsabilidade no plano de qualidade, na inspeção, na conservação de registros históricos, na análise e no reporting das atividades de SQA para o gerente do projeto</string>
+	<string name="q113c">c) Stackholders que fazem o trabalho técnico e o grupo de engenheiros de softwares que tem responsabilidade no plano de qualidade, na inspeção, na conservação de registros históricos, na análise e no reporting das atividades de SQA para o gerente do projeto</string>
+	<string name="q113d">d) Stackholders que fazem o trabalho técnico e o grupo de SQA, que tem responsabilidade no plano de qualidade, na inspeção, na conservação de registros históricos, na análise e no reporting das atividades de SQA para o gerente do projeto</string>
+	<string name="q113e">e) Grupo de SQA que fazem o trabalho técnico e os engenheiros de software que tem responsabilidade no plano de qualidade, na inspeção, na conservação de registros históricos, na análise e no reporting das atividades de SQA para o gerente do projeto</string>
+	<string name="q114"> O Instituto de Engenharia de Software (SEI) recomenda as seguintes atividades a serem realizadas por um grupo de SQA: \n
+	    1. Preparar um plano de SQA para o projeto. O plano é desenvolvido durante o planejamento do projeto e é revisado por só uma parte interessada; \n 
+	    2. Participar do desenvolvimento da descrição do processo do projeto do software. O time de engenharia de software seleciona um processo para o trabalho a ser realizado. O grupo de SQA revisa a descrição do processo, verificando se ele está de acordo com a política organizacional, os padrões internos para o software, os padrões impostos externamente e outras partes do plano de projeto de software; \n
+	    3. Revisar as atividades dos engenheiros de software para verificar se o processo de software definido está sendo seguido. O grupo de SQA identifica, documenta e trilha os desvios do processo e verifica quais correções devem ser realizadas; \n
+	    4. Garantir que os desvios no trabalho do software e nos produtos do trabalho são documentados e mantidos de acordo com o procedimento documentado; \n
+	    5. Registrar qualquer discordância e não reportar para o gerente.</string>
+	<string name="q114a">a) 1, 2, 3</string>
+	<string name="q114b">b) 1, 2, 4</string>
+	<string name="q114c">c) 2, 3, 4</string>
+	<string name="q114d">d) 2, 3, 5</string>
+	<string name="q114e">e) 3, 4, 5</string>
+	<string name="q115"> Qual o papel do grupo de Garantia de Qualidade de Software (SQA)?</string>
+	<string name="q115a">a) O papel do grupo de SQA é gerar atividades de desempenho do processo de desenvolvimento de software definidos</string>
+	<string name="q115b">b) O papel do grupo de SQA é monitorar medidas no sentido de que as práticas detalhadas caracterizam os tipos normais de comportamento que seriam esperados em uma organização que desenvolve projetos em larga escala num contexto de contratação governamental.</string>
+	<string name="q115c">c) O papel do grupo de SQA é mensurar a qualidade do produto de software e suas prioridades definidas</string>
+	<string name="q115d">d) O papel do grupo de SQA é medir para melhor entendermos os atributos dos modelos que criamos e, o mais importante, é que nós usamos SQA para avaliarmos a qualidade dos produtos de engenharia ou sistemas que nós construímos.</string>
+	<string name="q115e">e) O papel do grupo de SQA é ajudar o time de engenharia de software a alcançar um produto de alta qualidade. </string>
+	<string name="q116"> O grupo de SQA coordena o ___________ e o gerenciamento de ___________ e ajuda a coletar e analisar ___________ de software.</string>
+	<string name="q116a">a) controle, papéis, stackholders</string>
+	<string name="q116b">b) controle, mudanças, métricas</string>
+	<string name="q116c">c) controle, stackholders, mudança</string>
+	<string name="q116d">d) monitoramento, pessoas, mudança</string>
+	<string name="q116e">e) monitoramento, pessoas, desenvolvimento</string>
+	<string name="q117"> Qual o objetivo do PSP (Personal Software Process)?</string>
+	<string name="q117a">a) O principal objetivo do PSP é gerar atividades de desempenho do processo de desenvolvimento de software definidos</string>
+	<string name="q117b">b) O principal objetivo do PSP é monitorar medidas no sentido de que as práticas detalhadas caracterizam os tipos normais de comportamento que seriam esperados em uma organização que desenvolve projetos em larga escala num contexto de contratação governamental.</string>
+	<string name="q117c">c) O principal objetivo do PSP é mensurar a qualidade do produto de software e suas prioridades definidas</string>
+	<string name="q117d">d) O principal objetivo do PSP é fazer com que os engenheiros de software fiquem atentos no processo que eles usam para fazer seus trabalhos e estejam sempre verificando suas performances no processo.</string>
+	<string name="q117e">e) O principal objetivo do PSP é medir para melhor entendermos os atributos dos modelos que criamos e, o mais importante, é que nós usamos SQA para avaliarmos a qualidade dos produtos de engenharia ou sistemas que nós construímos.</string>
+	<string name="q118"> O que é PSP (Personal Software Process)?</string>
+	<string name="q118a">a) O PSP gera atividades de desempenho do processo de desenvolvimento de software definidos</string>
+	<string name="q118b">b) O PSP monitora medidas no sentido de que as práticas detalhadas caracterizam os tipos normais de comportamento que seriam esperados em uma organização que desenvolve projetos em larga escala num contexto de contratação governamental.</string>
+	<string name="q118c">c) O PSP é uma estratégia para o desenvolvimento pessoal com o objetivo de aumento de produtividade.</string>
+	<string name="q118d">d) O PSP é mede a qualidade do produto de software e suas prioridades definidas</string>
+	<string name="q118e">e) O PSP mede os processos para melhor entendermos os atributos dos modelos que criamos e, o mais importante, é que nós usamos SQA para avaliarmos a qualidade dos produtos de engenharia ou sistemas que nós construímos.</string>
+	<string name="q119"> O PSP aplica princípios de processo para o trabalho do engenheiro de software por: \n
+	    1. Fornecer um padrão de processo impessoal definido; \n
+	    2. Introduzir uma família de medidas de processo; \n
+	    3. Usar essas medidas para trilhar e avaliar o desempenho;\n 
+	    4. Se esforçar para obter critérios de qualidade e melhorar os objetivos.</string>
+	<string name="q119a">a) 1, 2</string>
+	<string name="q119b">b) 2, 4</string>
+	<string name="q119c">c) 1, 2, 3</string>
+	<string name="q119d">d) 1, 2, 4</string>
+	<string name="q119e">e) 2, 3, 4</string>
+	<string name="q120"> Usando o PSP, engenheiros:\n
+	    1. Desenvolvem um plano para todo o projeto;\n
+	    2. Registram seu tempo de desenvolvimento;\n
+	    3. Trilham seus defeitos;\n
+	    4. Não mantêm dados de um projeto em relatórios resumidos;\n
+	    5. Não usam esses dados para planos de projetos futuros;\n
+	    6. Não analisam dados que envolvem seus processos a fim de aumentar suas performances.</string>
+	<string name="q120a">a) 1, 2, 3</string>
+	<string name="q120b">b) 1, 2, 4</string>
+	<string name="q120c">c) 2, 3, 4</string>
+	<string name="q120d">d) 3, 4, 5</string>
+	<string name="q120e">e) 4, 5, 6</string>
+	<string name="q121"> Quais os focos do CMMI?</string>
+	<string name="q121a">a) Os processos e stackholders de solução com engenharia de software</string>
+	<string name="q121b">b) Os processos e o desenvolvimento de soluções com engenharia de software</string>
+	<string name="q121c">c) Os procedimentos e o desenvolvimento de soluções com engenheiros civis</string>
+	<string name="q121d">d) Os processos e o desenvolvimento de soluções com linguagem de marcação</string>
+	<string name="q121e">e) Os procedimentos e o desenvolvimento de stackholders com engenharia de solução</string>
+	<string name="q122"> Como o CMMI age?</string>
+	<string name="q122a">a) O CMMI gera atividades de desempenho do processo de desenvolvimento de software definidos</string>
+	<string name="q122b">b) O CMMI monitora medidas no sentido de que as práticas detalhadas caracterizam os tipos normais de comportamento que seriam esperados em uma organização que desenvolve projetos em larga escala num contexto de contratação governamental.</string>
+	<string name="q122c">c) O CMMI é uma estratégia para o desenvolvimento pessoal com o objetivo de aumento de produtividade.</string>
+	<string name="q122d">d) O CMMI colabora na organização e aprimoramento de processos, tornando-os mais maduros e eficientes. Os modelos de capacidade e maturidade atingidos em seus níveis ajudam a prever o comportamento de determinado processo diante do cenário ao qual o projeto se encontra. Em resumo, torna-se possível saber se o projeto vai ou não dar certo.</string>
+	<string name="q122e">e) O CMMI mede os processos para melhor entendermos os atributos dos modelos que criamos e, o mais importante, é que nós usamos SQA para avaliarmos a qualidade dos produtos de engenharia ou sistemas que nós construímos.</string>
+	<string name="q123"> CMMI é acrônimo de:</string>
+	<string name="q123a">a) Capatibility Modern Model - Integration</string>
+	<string name="q123b">b) Capatibility Model Mistake - Interprise</string>
+	<string name="q123c">c) Capatibility Maturity Model - Integration</string>
+	<string name="q123d">d) Comportability Maturity Model - Interprise</string>
+	<string name="q123e">e) Comportability Maturity Model - Integration</string>
+	<string name="q124"> O que é CMMI?</string>
+	<string name="q124a">a) é uma forte ferramenta para o desempenho do processo de desenvolvimento de software definidos</string>
+	<string name="q124b">b) é uma forte ferramenta que monitora medidas no sentido de que as práticas detalhadas caracterizam os tipos normais de comportamento que seriam esperados em uma organização que desenvolve projetos em larga escala num contexto de contratação governamental.</string>
+	<string name="q124c">c) é uma forte ferramenta uma estratégia para o desenvolvimento pessoal com o objetivo de aumento de produtividade.</string>
+	<string name="q124d">d) é uma forte ferramenta que mede os processos para melhor entendermos os atributos dos modelos que criamos e, o mais importante, é que nós usamos SQA para avaliarmos a qualidade dos produtos de engenharia ou sistemas que nós construímos.</string>
+	<string name="q124e">e) é uma forte ferramenta para o planejamento e gerenciamento de aquisições, desenvolvimento, manutenção e suporte do produto.</string>
+	<string name="q125"> Quais são os três modelos do CMMI 1.3?</string>
+	<string name="q125a">a) CMMI-DEV; CMMI-ACQ; CMMI-SVC</string>
+	<string name="q125b">b) CMMI-DEP; CMMI-ACO; CMMI-SVC</string>
+	<string name="q125c">c) CMMI-DEV; CMMI-ACO; CMMI-SVC</string>
+	<string name="q125d">d) CMMI-DEP; CMMI-ACQ; CMMI-SVE</string>
+	<string name="q125e">e) CMMI-DEV; CMMI-ACQ; CMMI-SVE</string>
+	<string name="q126"> Qual a missão do CMMI-DEV?</string>
+	<string name="q126a">a) CMMI para desenvolvimento tem a missão de focar em atividades correlacionadas à prestação de serviços conjuntamente à aquisição de desenvolvimento de produtos.</string>
+	<string name="q126b">b) CMMI para desenvolvimento tem a missão de melhorar processos que são destinados à elaboração de produtos e serviços. É composto pelas melhores práticas de desenvolvimento e manutenção do produto final.</string>
+	<string name="q126c">c) CMMI para desenvolvimento tem a missão de gerar atividades e também prestação de serviços. Nesse estão contidas práticas de Gestão de Serviços, Gestão de Projetos, entre outras áreas</string>
+	<string name="q126d">d) CMMI para desenvolvimento tem a missão estratégica para o desenvolvimento pessoal com o objetivo de aumento de produtividade.</string>
+	<string name="q126e">e) CMMI para desenvolvimento tem a missão de monitorar medidas no sentido de que as práticas detalhadas caracterizam os tipos normais de comportamento que seriam esperados em uma organização que desenvolve projetos em larga escala num contexto de contratação governamental.</string>
+	<string name="q127"> Quais são as características do CMMI-DEV e onde ele é utilizado?</string>
+	<string name="q127a">a) O modelo CMMI-DEV possui características de Engenharia de Sistemas, Engenharia de Pessoas, Ergonometria entre outras áreas. E é amplamente utilizado nos setores da medicina, pedagógico e indústria automobilística.</string>
+	<string name="q127b">b) O modelo CMMI-DEV possui características de Engenharia de Civil, Engenharia de Pessoas, Ergonometria entre outras áreas. E é amplamente utilizado nos setores da medicina, pedagógico e farmaceutico.</string>
+	<string name="q127c">c) O modelo CMMI-DEV possui características de Administração de empresas, Gestão pública, Econômia entre outras áreas. E é amplamente utilizado nos setores bancários, hardware de computadores, softwares e indústria automobilística.</string>
+	<string name="q127d">d) O modelo CMMI-DEV possui características de Engenharia de Sistemas, Engenharia de Software, Gestão de Projetos, entre outras áreas. E é amplamente utilizado nos setores bancários, hardware de computadores, softwares e indústria automobilística.</string>
+	<string name="q127e">e) O modelo CMMI-DEV possui características de Engenharia de Sistemas, Engenharia de Pessoas, Gestão pública entre outras áreas. E é amplamente utilizado nos setores da medicina, bancário, softwares e indústria automobilística.</string>
+	<string name="q128"> Qual o foco do CMMI-ACQ?</string>
+	<string name="q128a">a) CMMI para desenvolvimento tem o enfoque em atividades correlacionadas à prestação de serviços conjuntamente à aquisição de desenvolvimento de produtos.</string>
+	<string name="q128b">b) CMMI para desenvolvimento tem o enfoque de melhorar processos que são destinados à elaboração de produtos e serviços. É composto pelas melhores práticas de desenvolvimento e manutenção do produto final.</string>
+	<string name="q128c">c) CMMI para desenvolvimento tem o enfoque de gerar atividades e também prestação de serviços. Nesse estão contidas práticas de Gestão de Serviços, Gestão de Projetos, entre outras áreas</string>
+	<string name="q128d">d) CMMI para desenvolvimento tem o enfoque estratégico para o desenvolvimento pessoal com o objetivo de aumento de produtividade.</string>
+	<string name="q128e">e) CMMI para desenvolvimento tem o enfoque de monitorar medidas no sentido de que as práticas detalhadas caracterizam os tipos normais de comportamento que seriam esperados em uma organização que desenvolve projetos em larga escala num contexto de contratação governamental.</string>
+	<string name="q129"> Quais são as características do CMMI-ACQ e onde ele é utilizado?</string>
+	<string name="q129a">a) O modelo CMMI-ACQ possui características de Gestão de Processos, Engenharia de Pessoas, Ergonometria entre outras áreas. E é amplamente utilizado nos setores da medicina, pedagógico e indústria automobilística, entre outras são o público-alvo desse tipo de modelo.</string>
+	<string name="q129b">b) O modelo CMMI-ACQ possui características de Gestão de Processos, Engenharia de Pessoas, Ergonometria entre outras áreas. E é amplamente utilizado nos setores da medicina, pedagógico e farmaceutico, entre outras são o público-alvo desse tipo de modelo.</string>
+	<string name="q129c">c) O modelo CMMI-ACQ possui características de Gestão de Projetos, Gestão de Processos e Engenharia de Aquisição, onde é utilizado na aquisição e gestão de fornecedores. Empresas dos setores aeroespacial, software, defesa, entre outras são o público-alvo desse tipo de modelo.</string>
+	<string name="q129d">d) O modelo CMMI-ACQ possui características de Engenharia de Sistemas, Engenharia de Software, Gestão de Projetos, entre outras áreas. Empresas dos setores bancários, hardware de computadores, softwares e indústria automobilística, entre outras são o público-alvo desse tipo de modelo.</string>
+	<string name="q129e">e) O modelo CMMI-ACQ possui características de Engenharia de Sistemas, Engenharia de Pessoas, Gestão pública entre outras áreas. Empresas dos setores da medicina, bancário, softwares e indústria automobilística, entre outras são o público-alvo desse tipo de modelo.</string>
+	<string name="q130"> Onde é aplicado o CMMI-SVC? E quais os principais usuários deste modelo?</string>
+	<string name="q130a">a) é aplicado em atividades de desenvolvimento e também prestação de serviços. Nesse estão contidas práticas de Gestão de Processos, Engenharia de Pessoas, Ergonometria entre outras áreas. Organizações relacionadas à educação e telecomunicações são as principais usuárias desse modelo.</string>
+	<string name="q130b">b) é aplicado em atividades de gestão e também prestação de serviços. Nesse estão contidas práticas de Gestão de Processos, Engenharia de Pessoas, Ergonometria, entre outras áreas. Organizações relacionadas à educação e saúde são as principais usuárias desse modelo.</string>
+	<string name="q130c">c) é aplicado em atividades de desenvolvimento e também prestação de serviços. Nesse estão contidas práticas de Gestão de Serviços, Gestão de Processos, entre outras áreas. Organizações relacionadas à saúde, hotelaria e telecomunicações são as principais usuárias desse modelo.</string>
+	<string name="q130d">d) é aplicado em atividades de gestão e também prestação de serviços. Nesse estão contidas práticas de Gestão de Serviços, Gestão de Projetos, entre outras áreas. Organizações relacionadas à educação, saúde, hotelaria e telecomunicações são as principais usuárias desse modelo.</string>
+	<string name="q130e">e) é aplicado em atividades de aquisição e também prestação de serviços. Nesse estão contidas práticas de Gestão de Serviços, Gestão de Projetos, entre outras áreas. Organizações relacionadas à educação e telecomunicações são as principais usuárias desse modelo.</string>
+	<string name="q131"> O CMMI é uma evolução de diversos outros modelos, comumente explicado em dois tipos de representações:</string>
+	<string name="q131a">a) Representação contínua e representação por grupos</string>
+	<string name="q131b">b) Representação descontínua e representação por estágios</string>
+	<string name="q131c">c) Representação contínua e representação por detalhes</string>
+	<string name="q131d">d) Representação descontínua e representação por camadas</string>
+	<string name="q131e">e) Representação contínua e representação por estágios</string>
+	<string name="q132"> O CMMI é uma evolução de diversos outros modelos, comumente explicado em dois tipos de representações, a representação contínua é:</string>
+	<string name="q132a">a) similar à norma onde se define o processo de desenvolvimento de software chamada ISO/IEC 15504, onde é separada por níveis de capacidade para cada processo. O modelo CMMI foi criado a partir da norma ISO/IEC 15504, porém, são dados como modelos compatíveis</string>
+	<string name="q132b">b) similar à norma onde se define o processo de desenvolvimento de software chamada ISO/IEC 15504, onde é separada por níveis de capacidade para cada processo. O modelo CMMI não foi criado a partir da norma ISO/IEC 15504, porém, são dados como modelos compatíveis;</string>
+	<string name="q132c">c) similar à norma onde se define o processo de desenvolvimento de software chamada ISO/SPICE, onde é separada por níveis de capacidade para cada processo. O modelo CMMI foi criado a partir da norma ISO/SPICE, por isso, são dados como modelos compatíveis;</string>
+	<string name="q132d">d) onde se define um caminho para o aperfeiçoamento da organização, dividida em áreas e descrita em cinco diferentes níveis de maturidade.</string>
+	<string name="q132e">e) onde se define um caminho para o aperfeiçoamento da organização, dividida em áreas e descrita em seis diferentes níveis de maturidade.</string>
+	<string name="q133"> Sobre representação contínua do CMMI, é correto afirmar:\n
+	    1. Na representação contínua a empresa não tem a liberdade de escolha para aplicar os processos de acordo com suas necessidades e os objetivos que pretende alcançar, impossibilitando processo com níveis diferentes;\n
+	    2. É adequado usar a representação contínua quando a empresa quer converter apenas alguns processos, tornando-os mais maduros;\n
+	    3. Essa representação é dividida em seis níveis, os quais são chamados de incompleto; realizado (ou executado); gerenciado; definido; gerenciado quantitativamente; otimizado. </string>
+	<string name="q133a">a) 2</string>
+	<string name="q133b">b) 3</string>
+	<string name="q133c">c) 1 e 2</string>
+	<string name="q133d">d) 1 e 3</string>
+	<string name="q133e">e) 2 e 3</string>
+	<string name="q134"> Quais são os níveis do CMMI na representação contínua?</string>
+	<string name="q134a">a) incompleto; realizado (ou executado); gerenciado; definido; gerenciado quantitativamente; otimizado.</string>
+	<string name="q134b">b) inicial; repetível; definido; gerenciado; otimizado</string>
+	<string name="q134c">c) inicial; gerenciado; definido; quantitativamente gerenciado; otimizado</string>
+	<string name="q134d">d) incompleto; realizado (ou executado); repetível; gerenciado; definido; otimizado</string>
+	<string name="q134e">e) incompleto; repetível; definido; gerenciado; otimizado</string>
+	<string name="q135"> Ligue cada item da representação contínua ao respectivo número e descrição:\n
+	    1. Nível 0\n
+	    2. Nível 1\n
+	    3. Nível 2\n
+	    4. Nível 3\n
+	    5. Nível 4\n
+	    6. Nível 5\n
+	    a. Otimizado\n
+	    b. Gerenciado\n
+	    c. Definido\n
+	    d. Incompleto\n
+	    e. Realizado (ou executado)\n
+	    f. Gerenciado quantitativamente\n
+	    I. este nível é adaptado para que as necessidades da organização sejam plenamente supridas através da alteração e adaptação do processo gerenciado quantitativamente.\n
+	    II. esse nível retrata um processo que comumente não é executado, ou é executado parcialmente;\n
+	    III. o processo é gerenciado quantitativamente por estudos estatísticos;\n
+	    IV. é o planejamento da execução dos processos, onde a equipe do projeto faz a comparação do que foi planejado com o que foi efetivamente executado;\n
+	    V. o processo deve ser executado com o objetivo de completar as tarefas necessárias para a execução de um processo;\n
+	    VI. é construído tomando a direção do processo que já existe, porém é sustentada uma descrição do processo;</string>
+	<string name="q135a">a) 1-b-III; 2-e-V; 3-b-IV; 4-c-VI; 5-f-II; 6-a-I</string>
+	<string name="q135b">b) 1-b-II; 2-e-V; 3-b-IV; 4-c-VI; 5-f-III; 6-a-I</string>
+	<string name="q135c">c) 1-b-III; 2-e-V; 3-b-I; 4-c-VI; 5-f-IV; 6-a-II</string>
+	<string name="q135d">d) 1-b-IV; 2-e-VI; 3-b-II; 4-c-V; 5-f-III; 6-a-I</string>
+	<string name="q135e">e) 1-b-IV; 2-e-VI; 3-b-III; 4-c-V; 5-f-II; 6-a-I</string>
+	<string name="q136"> O nível 0 incompleto da representação contínua do CMMI, possui qual especificação?</string>
+	<string name="q136a">a) este nível é adaptado para que as necessidades da organização sejam plenamente supridas através da alteração e adaptação do processo gerenciado quantitativamente</string>
+	<string name="q136b">b) esse nível retrata um processo que comumente não é executado, ou é executado parcialmente</string>
+	<string name="q136c">c) é o planejamento da execução dos processos, onde a equipe do projeto faz a comparação do que foi planejado com o que foi efetivamente executado</string>
+	<string name="q136d">d) o processo deve ser executado com o objetivo de completar as tarefas necessárias para a execução de um processo</string>
+	<string name="q136e">e) é construído tomando a direção do processo que já existe, porém é sustentada uma descrição do processo</string>
+	<string name="q137"> O nível 1 realizado (ou executado) da representação contínua do CMMI, possui qual especificação?</string>
+	<string name="q137a">a) este nível é adaptado para que as necessidades da organização sejam plenamente supridas através da alteração e adaptação do processo gerenciado quantitativamente</string>
+	<string name="q137b">b) esse nível retrata um processo que comumente não é executado, ou é executado parcialmente</string>
+	<string name="q137c">c) é o planejamento da execução dos processos, onde a equipe do projeto faz a comparação do que foi planejado com o que foi efetivamente executado</string>
+	<string name="q137d">d) o processo deve ser executado com o objetivo de completar as tarefas necessárias para a execução de um processo</string>
+	<string name="q137e">e) é construído tomando a direção do processo que já existe, porém é sustentada uma descrição do processo</string>
+	<string name="q138"> O nível 2 gerenciado da representação contínua do CMMI, possui qual especificação?</string>
+	<string name="q138a">a) este nível é adaptado para que as necessidades da organização sejam plenamente supridas através da alteração e adaptação do processo gerenciado quantitativamente</string>
+	<string name="q138b">b) esse nível retrata um processo que comumente não é executado, ou é executado parcialmente</string>
+	<string name="q138c">c) é o planejamento da execução dos processos, onde a equipe do projeto faz a comparação do que foi planejado com o que foi efetivamente executado</string>
+	<string name="q138d">d) o processo deve ser executado com o objetivo de completar as tarefas necessárias para a execução de um processo</string>
+	<string name="q138e">e) é construído tomando a direção do processo que já existe, porém é sustentada uma descrição do processo</string>
+	<string name="q139"> O nível 3 definido da representação contínua do CMMI, possui qual especificação?</string>
+	<string name="q139a">a) este nível é adaptado para que as necessidades da organização sejam plenamente supridas através da alteração e adaptação do processo gerenciado quantitativamente</string>
+	<string name="q139b">b) esse nível retrata um processo que comumente não é executado, ou é executado parcialmente</string>
+	<string name="q139c">c) é o planejamento da execução dos processos, onde a equipe do projeto faz a comparação do que foi planejado com o que foi efetivamente executado</string>
+	<string name="q139d">d) o processo deve ser executado com o objetivo de completar as tarefas necessárias para a execução de um processo</string>
+	<string name="q139e">e) é construído tomando a direção do processo que já existe, porém é sustentada uma descrição do processo</string>
+	<string name="q140"> O nível 5 otimizado da representação contínua do CMMI, possui qual especificação?</string>
+	<string name="q140a">a) este nível é adaptado para que as necessidades da organização sejam plenamente supridas através da alteração e adaptação do processo gerenciado quantitativamente</string>
+	<string name="q140b">b) esse nível retrata um processo que comumente não é executado, ou é executado parcialmente</string>
+	<string name="q140c">c) é o planejamento da execução dos processos, onde a equipe do projeto faz a comparação do que foi planejado com o que foi efetivamente executado</string>
+	<string name="q140d">d) o processo deve ser executado com o objetivo de completar as tarefas necessárias para a execução de um processo</string>
+	<string name="q140e">e) é construído tomando a direção do processo que já existe, porém é sustentada uma descrição do processo</string>
+	<string name="q141"> Nível ___: Gerenciado _________________ – o processo é gerenciado ________________ por estudos estatísticos;</string>
+	<string name="q141a">a) 3, qualitativamente, quantitativamente</string>
+	<string name="q141b">b) 3, qualitativamente, qualitativamente</string>
+	<string name="q141c">c) 4, quantitativamente, quantitativamente</string>
+	<string name="q141d">d) 4, quantitativamente, qualitativamente</string>
+	<string name="q141e">e) 5, qualitativamente, quantitativamente</string>
+	<string name="q142"> Nesta representação a sequência é predeterminada e deve ser seguida rigorosamente, pois cada estágio depende diretamente do anterior. É dividida em cinco níveis de maturidade.;</string>
+	<string name="q142a">a) representação contínua</string>
+	<string name="q142b">b) representação por estágios</string>
+	<string name="q142c">c) representação por grupos</string>
+	<string name="q142d">d) Diagrama de McCall</string>
+	<string name="q142e">e) Máquina de Turing</string>
+	<string name="q143"> Quais são os níveis do CMMI na representação por estágios?</string>
+	<string name="q143a">a) incompleto; realizado (ou executado); gerenciado; definido; gerenciado quantitativamente; otimizado.</string>
+	<string name="q143b">b) inicial; repetível; definido; gerenciado; otimizado</string>
+	<string name="q143c">c) inicial; gerenciado; definido; quantitativamente gerenciado; otimizado</string>
+	<string name="q143d">d) incompleto; realizado (ou executado); repetível; gerenciado; definido; otimizado</string>
+	<string name="q143e">e) incompleto; repetível; definido; gerenciado; otimizado</string>
+	<string name="q144"> Ligue cada item da representação por estágios ao respectivo número e descrição:\n
+	    1. Nível 1\n
+	    2. Nível 2\n
+	    3. Nível 3\n
+	    4. Nível 4\n
+	    5. Nível 5\n
+	    a. Otimização\n
+	    b. Gerenciado\n
+	    c. Definido\n
+	    d. Inicial\n
+	    e. Gerenciado quantitativamente\n
+	    I. Processos são caracterizados para Organização e são proativos\n
+	    II. Processos são medidos e controlados;\n
+	    III. foco contínuo na melhoria dos processos\n
+	    IV. processos são imprevisíveis, pouco controlados e reativos;\n
+	    V. processos são caracterizados por Projeto e as ações são frequentemente reativas</string>
+	<string name="q144a">a) 1-b-III; 2-e-V; 3-b-IV; 4-c-VI; 5-f-II</string>
+	<string name="q144b">b) 1-d-IV; 2-e-III; 3-b-V; 4-c-I; 5-f-II</string>
+	<string name="q144c">c) 1-b-III; 2-e-V; 3-b-I; 4-c-II; 5-f-IV</string>
+	<string name="q144d">d) 1-d-IV; 2-b-V; 3-c-I; 4-e-II; 5-a-III</string>
+	<string name="q144e">e) 1-d-III; 2-e-II; 3-b-V; 4-c-I; 5-f-IV</string>
+	<string name="q145"> O nível 1 inicial da representação por estágios do CMMI, possui qual caracteristica:</string>
+	<string name="q145a">a) considerado como um estágio caótico e talvez o mais complexo do projeto, onde os processos são mal definidos e os funcionários acabam dedicando mais tempo na correção das atividades realizadas.</string>
+	<string name="q145b">b) Nesta fase são realizados relatórios estatísticos onde são visualizados os detalhes das métricas utilizadas no processo de software. A partir disso são estudados tanto o processo como o produto de software, onde são quantitativamente avaliados e controlados.</string>
+	<string name="q145c">c) Todas as atividades de um processo padrão de software (ligadas a gerenciamento ou engenharia de software) passam pelas etapas de documentação, padronização e integração.</string>
+	<string name="q145d">d) Nesta etapa são discutidos e estabelecidos os processos básicos do gerenciamento do projeto, como planejamento de custos, aquisições e prazos. Na maioria dos casos a organização é disciplinada, porém, por certas resistências pode ocorrer resistência para a implantação de mudanças.</string>
+	<string name="q145e">e) O contínuo aperfeiçoamento do processo é estabelecido através de sua avaliação quantitativa e também pela implantação de tecnologias e ideias inovadoras.</string>
+	<string name="q146"> O nível 1 inicial da representação por estágios do CMMI, possui qual caracteristica:</string>
+	<string name="q146a">a) O contínuo aperfeiçoamento do processo é estabelecido através de sua avaliação quantitativa e também pela implantação de tecnologias e ideias inovadoras.</string>
+	<string name="q146b">b) Nesta fase são realizados relatórios estatísticos onde são visualizados os detalhes das métricas utilizadas no processo de software. A partir disso são estudados tanto o processo como o produto de software, onde são quantitativamente avaliados e controlados.</string>
+	<string name="q146c">c) Todas as atividades de um processo padrão de software (ligadas a gerenciamento ou engenharia de software) passam pelas etapas de documentação, padronização e integração.</string>
+	<string name="q146d">d) Nesta etapa são discutidos e estabelecidos os processos básicos do gerenciamento do projeto, como planejamento de custos, aquisições e prazos. Na maioria dos casos a organização é disciplinada, porém, por certas resistências pode ocorrer resistência para a implantação de mudanças.</string>
+	<string name="q146e">e) é necessário que os profissionais se empenhem e deem o máximo de si, pois o que salvará o projeto e dará um empurrão inicial será a união dos esforços individuais.</string>
+	<string name="q147"> O nível 1 inicial da representação por estágios do CMMI, possui qual caracteristica:</string>
+	<string name="q147a">a) O contínuo aperfeiçoamento do processo é estabelecido através de sua avaliação quantitativa e também pela implantação de tecnologias e ideias inovadoras.</string>
+	<string name="q147b">b) O processo de software é tratado como uma caixa preta, pois nesse momento apenas é possível visualizar as entradas e os produtos finais, de modo que todo o trâmite nesse ínterim fica impossibilitado de ser visualizado.</string>
+	<string name="q147c">c) Todas as atividades de um processo padrão de software (ligadas a gerenciamento ou engenharia de software) passam pelas etapas de documentação, padronização e integração.</string>
+	<string name="q147d">d) Nesta etapa são discutidos e estabelecidos os processos básicos do gerenciamento do projeto, como planejamento de custos, aquisições e prazos. Na maioria dos casos a organização é disciplinada, porém, por certas resistências pode ocorrer resistência para a implantação de mudanças.</string>
+	<string name="q147e">e) Nesta fase são realizados relatórios estatísticos onde são visualizados os detalhes das métricas utilizadas no processo de software. A partir disso são estudados tanto o processo como o produto de software, onde são quantitativamente avaliados e controlados.</string>
+	<string name="q148"> Essa fase da representação por estágios do CMMI cobra redobrada atenção às possíveis situações:\n
+	    - Deficiências no planejamento;\n
+	    - Cronogramas impossíveis de cumprimento;\n
+	    - Documentação pouco confiável;\n
+	    - Ausência de controle de requisitos e avaliação do cliente\n
+	    Esse descrição está tratando de qual estágio?</string>
+	<string name="q148a">Nível 2 - Gerenciado</string>	
+	<string name="q148b">Nível 3 - Definido</string>
+	<string name="q148c">Nível 1 - Inicial</string>
+	<string name="q148d">Nível 4 - Gerenciado Quantitativamente</string>
+	<string name="q148e">Nível 5 - Otimizado</string>
+	<string name="q149"> O nível 2 gerenciado da representação por estágios do CMMI, possui qual característica?</string>
+	<string name="q149a">a) O contínuo aperfeiçoamento do processo é estabelecido através de sua avaliação quantitativa e também pela implantação de tecnologias e ideias inovadoras.</string>
+	<string name="q149b">b) O processo de software é tratado como uma caixa preta, pois nesse momento apenas é possível visualizar as entradas e os produtos finais, de modo que todo o trâmite nesse ínterim fica impossibilitado de ser visualizado.</string>
+	<string name="q149c">c) Todas as atividades de um processo padrão de software (ligadas a gerenciamento ou engenharia de software) passam pelas etapas de documentação, padronização e integração.</string>
+	<string name="q149d">d) Nesta etapa são discutidos e estabelecidos os processos básicos do gerenciamento do projeto, como planejamento de custos, aquisições e prazos. Na maioria dos casos a organização é disciplinada, porém, por certas resistências pode ocorrer resistência para a implantação de mudanças.</string>
+	<string name="q149e">e) Nesta fase são realizados relatórios estatísticos onde são visualizados os detalhes das métricas utilizadas no processo de software. A partir disso são estudados tanto o processo como o produto de software, onde são quantitativamente avaliados e controlados.</string>
+	<string name="q150"> O nível 2 gerenciado da representação por estágios do CMMI, possui qual característica?</string>
+	<string name="q150a">a) Em inúmeros casos usar projetos que obtiveram sucesso no passado é uma grande ideia, levando ao bom encaminhamento e término seguro do projeto. O processo é visto como diversas caixas pretas interligadas, possibilitando a visualização em alguns pontos. Esses pontos são chamados de marcos do projeto.</string>
+	<string name="q150b">b) O processo de software é tratado como uma caixa preta, pois nesse momento apenas é possível visualizar as entradas e os produtos finais, de modo que todo o trâmite nesse ínterim fica impossibilitado de ser visualizado.</string>
+	<string name="q150c">c) Todas as atividades de um processo padrão de software (ligadas a gerenciamento ou engenharia de software) passam pelas etapas de documentação, padronização e integração.</string>
+	<string name="q150d">d) O contínuo aperfeiçoamento do processo é estabelecido através de sua avaliação quantitativa e também pela implantação de tecnologias e ideias inovadoras.</string>
+	<string name="q150e">e) Nesta fase são realizados relatórios estatísticos onde são visualizados os detalhes das métricas utilizadas no processo de software. A partir disso são estudados tanto o processo como o produto de software, onde são quantitativamente avaliados e controlados.</string>
+	<string name="q151"> O nível 2 gerenciado da representação por estágios do CMMI, possui qual característica?</string>
+	<string name="q151a">a) Nesta fase são realizados relatórios estatísticos onde são visualizados os detalhes das métricas utilizadas no processo de software. A partir disso são estudados tanto o processo como o produto de software, onde são quantitativamente avaliados e controlados.</string>
+	<string name="q151b">b) O processo de software é tratado como uma caixa preta, pois nesse momento apenas é possível visualizar as entradas e os produtos finais, de modo que todo o trâmite nesse ínterim fica impossibilitado de ser visualizado.</string>
+	<string name="q151c">c) Todas as atividades de um processo padrão de software (ligadas a gerenciamento ou engenharia de software) passam pelas etapas de documentação, padronização e integração.</string>
+	<string name="q151d">d) O contínuo aperfeiçoamento do processo é estabelecido através de sua avaliação quantitativa e também pela implantação de tecnologias e ideias inovadoras.</string>
+	<string name="q151e">e) O avanço do projeto é controlado mediante a evolução dos requisitos. A cada marco realizado são aplicadas avaliações onde o progresso e a construção do software são notados e ponderados.</string>
+	<string name="q152"> O nível 3 definido da representação por estágios do CMMI, possui qual característica?</string>
+	<string name="q152a">a) Nesta fase são realizados relatórios estatísticos onde são visualizados os detalhes das métricas utilizadas no processo de software. A partir disso são estudados tanto o processo como o produto de software, onde são quantitativamente avaliados e controlados.</string>
+	<string name="q152b">b) O processo de software é tratado como uma caixa preta, pois nesse momento apenas é possível visualizar as entradas e os produtos finais, de modo que todo o trâmite nesse ínterim fica impossibilitado de ser visualizado.</string>
+	<string name="q152c">c) Todas as atividades de um processo padrão de software (ligadas a gerenciamento ou engenharia de software) passam pelas etapas de documentação, padronização e integração.</string>
+	<string name="q152d">d) O contínuo aperfeiçoamento do processo é estabelecido através de sua avaliação quantitativa e também pela implantação de tecnologias e ideias inovadoras.</string>
+	<string name="q152e">e) O avanço do projeto é controlado mediante a evolução dos requisitos. A cada marco realizado são aplicadas avaliações onde o progresso e a construção do software são notados e ponderados.</string>
+	<string name="q153"> O nível 3 definido da representação por estágios do CMMI, possui qual característica?</string>
+	<string name="q153a">a) Nesta fase são realizados relatórios estatísticos onde são visualizados os detalhes das métricas utilizadas no processo de software. A partir disso são estudados tanto o processo como o produto de software, onde são quantitativamente avaliados e controlados.</string>
+	<string name="q153b">b) No desenvolvimento e na manutenção do software são utilizadas versões aprovadas ou adaptadas desses processos, onde são enquadradas para os requerimentos e características do projeto em desenvolvimento</string>
+	<string name="q153c">c) O processo de software é tratado como uma caixa preta, pois nesse momento apenas é possível visualizar as entradas e os produtos finais, de modo que todo o trâmite nesse ínterim fica impossibilitado de ser visualizado.</string>
+	<string name="q153d">d) O contínuo aperfeiçoamento do processo é estabelecido através de sua avaliação quantitativa e também pela implantação de tecnologias e ideias inovadoras.</string>
+	<string name="q153e">e) O avanço do projeto é controlado mediante a evolução dos requisitos. A cada marco realizado são aplicadas avaliações onde o progresso e a construção do software são notados e ponderados.</string>
+	<string name="q154"> O nível 3 definido da representação por estágios do CMMI, possui qual característica?</string>
+	<string name="q154a">a) Nesta fase são realizados relatórios estatísticos onde são visualizados os detalhes das métricas utilizadas no processo de software. A partir disso são estudados tanto o processo como o produto de software, onde são quantitativamente avaliados e controlados.</string>
+	<string name="q154b">b) O contínuo aperfeiçoamento do processo é estabelecido através de sua avaliação quantitativa e também pela implantação de tecnologias e ideias inovadoras.</string>
+	<string name="q154c">c) O processo de software é tratado como uma caixa preta, pois nesse momento apenas é possível visualizar as entradas e os produtos finais, de modo que todo o trâmite nesse ínterim fica impossibilitado de ser visualizado.</string>
+	<string name="q154d">d) Nesta etapa as funções de cada envolvido no projeto estão bem definidas e claras. Com isso, a organização utilizará processos estabelecidos e padronizados. Assim, a porcentagem de sucesso do projeto é aumentada significativamente e os riscos diminuem, pois a saída de um membro da equipe, por exemplo, pode ser facilmente suprida, dado que existem planos de riscos definidos e o impacto de qualquer imprevisto ocorrido se torna mínimo.</string>
+	<string name="q154e">e) O avanço do projeto é controlado mediante a evolução dos requisitos. A cada marco realizado são aplicadas avaliações onde o progresso e a construção do software são notados e ponderados.</string>
+	<string name="q155"> O nível 4 gerenciado quantitativamente da representação por estágios do CMMI, possui qual característica?</string>
+	<string name="q155a">a) Nesta fase são realizados relatórios estatísticos onde são visualizados os detalhes das métricas utilizadas no processo de software. A partir disso são estudados tanto o processo como o produto de software, onde são quantitativamente avaliados e controlados. A qualidade é realizada por um grupo que é apenas alocado para esse tipo de tarefa, onde rotineiramente analisam a qualidade e aprimoram o software.</string>
+	<string name="q155b">b) O contínuo aperfeiçoamento do processo é estabelecido através de sua avaliação quantitativa e também pela implantação de tecnologias e ideias inovadoras.</string>
+	<string name="q155c">c) O processo de software é tratado como uma caixa preta, pois nesse momento apenas é possível visualizar as entradas e os produtos finais, de modo que todo o trâmite nesse ínterim fica impossibilitado de ser visualizado.</string>
+	<string name="q155d">d) Nesta etapa as funções de cada envolvido no projeto estão bem definidas e claras. Com isso, a organização utilizará processos estabelecidos e padronizados. Assim, a porcentagem de sucesso do projeto é aumentada significativamente e os riscos diminuem, pois a saída de um membro da equipe, por exemplo, pode ser facilmente suprida, dado que existem planos de riscos definidos e o impacto de qualquer imprevisto ocorrido se torna mínimo.</string>
+	<string name="q155e">e) O avanço do projeto é controlado mediante a evolução dos requisitos. A cada marco realizado são aplicadas avaliações onde o progresso e a construção do software são notados e ponderados.</string>
+	<string name="q156"> O nível 5 otimizado da representação por estágios do CMMI, possui qual característica?</string>
+	<string name="q156a">a) Nesta fase são realizados relatórios estatísticos onde são visualizados os detalhes das métricas utilizadas no processo de software. A partir disso são estudados tanto o processo como o produto de software, onde são quantitativamente avaliados e controlados. A qualidade é realizada por um grupo que é apenas alocado para esse tipo de tarefa, onde rotineiramente analisam a qualidade e aprimoram o software.</string>
+	<string name="q156b">b) O contínuo aperfeiçoamento do processo é estabelecido através de sua avaliação quantitativa e também pela implantação de tecnologias e ideias inovadoras.</string>
+	<string name="q156c">c) O processo de software é tratado como uma caixa preta, pois nesse momento apenas é possível visualizar as entradas e os produtos finais, de modo que todo o trâmite nesse ínterim fica impossibilitado de ser visualizado.</string>
+	<string name="q156d">d) Nesta etapa as funções de cada envolvido no projeto estão bem definidas e claras. Com isso, a organização utilizará processos estabelecidos e padronizados. Assim, a porcentagem de sucesso do projeto é aumentada significativamente e os riscos diminuem, pois a saída de um membro da equipe, por exemplo, pode ser facilmente suprida, dado que existem planos de riscos definidos e o impacto de qualquer imprevisto ocorrido se torna mínimo.</string>
+	<string name="q156e">e) O avanço do projeto é controlado mediante a evolução dos requisitos. A cada marco realizado são aplicadas avaliações onde o progresso e a construção do software são notados e ponderados.</string>
+	<string name="q157"> O nível 5 otimização da representação por estágios do CMMI, possui qual característica?</string>
+	<string name="q157a">a) Nesta fase são realizados relatórios estatísticos onde são visualizados os detalhes das métricas utilizadas no processo de software. A partir disso são estudados tanto o processo como o produto de software, onde são quantitativamente avaliados e controlados. A qualidade é realizada por um grupo que é apenas alocado para esse tipo de tarefa, onde rotineiramente analisam a qualidade e aprimoram o software.</string>
+	<string name="q157b">b) O avanço do projeto é controlado mediante a evolução dos requisitos. A cada marco realizado são aplicadas avaliações onde o progresso e a construção do software são notados e ponderados.</string>
+	<string name="q157c">c) O processo de software é tratado como uma caixa preta, pois nesse momento apenas é possível visualizar as entradas e os produtos finais, de modo que todo o trâmite nesse ínterim fica impossibilitado de ser visualizado.</string>
+	<string name="q157d">d) Nesta etapa as funções de cada envolvido no projeto estão bem definidas e claras. Com isso, a organização utilizará processos estabelecidos e padronizados. Assim, a porcentagem de sucesso do projeto é aumentada significativamente e os riscos diminuem, pois a saída de um membro da equipe, por exemplo, pode ser facilmente suprida, dado que existem planos de riscos definidos e o impacto de qualquer imprevisto ocorrido se torna mínimo.</string>
+	<string name="q157e">e) Nesta etapa os processos estão bem definidos e a compreensão sobre esses ultrapassa os processos praticados, tornando facilmente compreensíveis os efeitos causados em qualquer possível alteração. Além disso, as tecnologias e melhorias são implantadas como parte de rotinas diárias.</string>
+	<string name="q158"> Quais dos seguintes estágios foram removidos na versão 1.3 do CMMI?</string>
+	<string name="q158a">a) Inicial e Repetível</string>
+	<string name="q158b">b) Repetível e Gerenciado</string>
+	<string name="q158c">c) Otimização e Gerenciado</string>
+	<string name="q158d">d) Otimização e Gerenciado Quantitativamente</string>
+	<string name="q158e">e) Definido e Inicial</string>
+	<string name="q159"> A maturidade organizacional é mediada pelo conjunto __________ de seus processos. Assim, a empresa necessita que todos seus processos sejam classificados como ___________ para que a instituição seja certificada como uma empresa __________.</string>
+	<string name="q159a">a) parcial, nível 2, nível 3</string>
+	<string name="q159b">b) parcial, nível 3, nível 3</string>
+	<string name="q159c">c) inteiro, nível 2, nível 2</string>
+	<string name="q159d">d) inteiro, nível 3, nível 2</string>
+	<string name="q159e">e) inteiro, nível 2, nível 3</string>
+	<string name="q160"> No modelo CMMI versão 1.2 (CMMI-DEV) contém 22 áreas de processo. O nível 1 Inicial, temos as seguinte áreas:</string>
+	<string name="q160a">a) Gerenciamento de requisitos, Planejamento de projeto, Acompanhamento e controle de projeto, Gerenciamento de acordo com fornecedores</string>
+	<string name="q160b">b) Desempenho  de  processo  organizacional, Gerenciamento quantitativo de projeto</string>
+	<string name="q160c">c) Gestão  de  processo  organizacional, Análise casual e resolução</string>
+	<string name="q160d">d) Desenvolvimento de requisitos, Solução  técnica, Integração de produto, Verificação, Validação, Foco  de  processo  organizacional</string>
+	<string name="q160e">e) Nenhuma das alternativas</string>
+	<string name="q161"> No modelo CMMI versão 1.2 (CMMI-DEV) contém 22 áreas de processo. O nível 2 Gerenciado, temos as seguinte áreas:</string>
+	<string name="q161a">a) Gerenciamento de requisitos, Planejamento de projeto, Acompanhamento e controle de projeto, Gerenciamento de acordo com fornecedores</string>
+	<string name="q161b">b) Desempenho  de  processo  organizacional, Gerenciamento quantitativo de projeto</string>
+	<string name="q161c">c) Gestão  de  processo  organizacional, Análise casual e resolução</string>
+	<string name="q161d">d) Desenvolvimento de requisitos, Solução  técnica, Integração de produto, Verificação, Validação, Foco  de  processo  organizacional</string>
+	<string name="q161e">e) Nenhuma das alternativas</string>
+	<string name="q162"> No modelo CMMI versão 1.2 (CMMI-DEV) contém 22 áreas de processo. O nível 2 Gerenciado, temos as seguinte áreas:</string>
+	<string name="q162a">a) Desempenho  de  processo  organizacional, Gerenciamento quantitativo de projeto</string>
+	<string name="q162b">b) Medição  de  análise, Garantia  da  qualidade  de  processo  e  produto, Gerência de configuração</string>
+	<string name="q162c">c) Gestão  de  processo  organizacional, Análise casual e resolução</string>
+	<string name="q162d">d) Desenvolvimento de requisitos, Solução  técnica, Integração de produto, Verificação, Validação, Foco  de  processo  organizacional</string>
+	<string name="q162e">e) Nenhuma das alternativas</string>
+	<string name="q163"> No modelo CMMI versão 1.2 (CMMI-DEV) contém 22 áreas de processo. O nível 3 Definido, temos as seguinte áreas:</string>
+	<string name="q163a">a) Desempenho  de  processo  organizacional, Gerenciamento quantitativo de projeto</string>
+	<string name="q163b">b) Medição  de  análise, Garantia  da  qualidade  de  processo  e  produto, Gerência de configuração</string>
+	<string name="q163c">c) Gestão  de  processo  organizacional, Análise casual e resolução</string>
+	<string name="q163d">d) Desenvolvimento de requisitos, Solução  técnica, Integração de produto, Verificação, Validação, Foco  de  processo  organizacional</string>
+	<string name="q163e">e) Nenhuma das alternativas</string>
+	<string name="q164"> No modelo CMMI versão 1.2 (CMMI-DEV) contém 22 áreas de processo. O nível 3 Definido, temos as seguinte áreas:</string>
+	<string name="q164a">a) Desempenho  de  processo  organizacional, Gerenciamento quantitativo de projeto</string>
+	<string name="q164b">b) Medição  de  análise, Garantia  da  qualidade  de  processo  e  produto, Gerência de configuração</string>
+	<string name="q164c">c) Definição de processo organizacional, Treinamento  organizacional, Gerenciamento integrado de projeto, Gerenciamento de riscos, Análise de decisão e resolução</string>
+	<string name="q164d">d) Gestão  de  processo  organizacional, Análise casual e resolução</string>
+	<string name="q164e">e) Nenhuma das alternativas</string>
+	<string name="q165"> No modelo CMMI versão 1.2 (CMMI-DEV) contém 22 áreas de processo. O nível 4 Quantitativamente Gerenciado, temos as seguinte áreas:</string>
+	<string name="q165a">a) Desempenho  de  processo  organizacional, Gerenciamento quantitativo de projeto</string>
+	<string name="q165b">b) Medição  de  análise, Garantia  da  qualidade  de  processo  e  produto, Gerência de configuração</string>
+	<string name="q165c">c) Definição de processo organizacional, Treinamento  organizacional, Gerenciamento integrado de projeto, Gerenciamento de riscos, Análise de decisão e resolução</string>
+	<string name="q165d">d) Gestão  de  processo  organizacional, Análise casual e resolução</string>
+	<string name="q165e">e) Nenhuma das alternativas</string>
+	<string name="q166"> No modelo CMMI versão 1.2 (CMMI-DEV) contém 22 áreas de processo. O nível 4 Quantitativamente Gerenciado, temos as seguinte áreas:</string>
+	<string name="q166a">a) Desempenho  de  processo  organizacional, Gerenciamento quantitativo de projeto</string>
+	<string name="q166b">b) Medição  de  análise, Garantia  da  qualidade  de  processo  e  produto, Gerência de configuração</string>
+	<string name="q166c">c) Definição de processo organizacional, Treinamento  organizacional, Gerenciamento integrado de projeto, Gerenciamento de riscos, Análise de decisão e resolução</string>
+	<string name="q166d">d) Gestão  de  processo  organizacional, Análise casual e resolução</string>
+	<string name="q166e">e) Nenhuma das alternativas</string>
+	<string name="q167"> As áreas abaixo dizem respeito ao nível 2 Gerenciado do CMMI versão 1.2 (CMMI-DEV), relacione as áreas as suas respectivas descrições:\n
+	    1. Gerenciamento de requisitos;\n
+	    2. Planejamento de projeto;\n
+	    3. Acompanhamento e controle de projeto;\n
+	    4. Gerenciamento de acordo com fornecedores;\n
+	    5. Medição de análise;\n
+	    6. Garantia da qualidade de processo e produto;\n
+	    7. Gerência de configuração;\n
+	    a. são realizadas medições e, a partir dessas, são executados estudos para a verificação de desvios ou variações fora do planejamento;\n
+	    b. para o gerenciamento eficaz é preciso providenciar informações suficientes;\n
+	    c. processo onde são identificadas inconsistências dos requisitos e dos produtos de trabalho, onde deve-se realizar a gestão desses;\n
+	    d. fase onde são realizadas negociações de acordos de produtos, fornecedores e também toda a gestão das aquisições;\n
+	    e. criar e concretizar planos específicos para aplicação nos projetos;\n
+	    f. processo onde é mantida a integridade dos produtos do projeto;\n
+	    g. processo onde é realizada a verificação da garantia do projeto, visando garantir se o produto possui os requisitos e qualidade desejados.</string>
+	<string name="q167a">a) 1-a; 2-e; 3-b; 4-d; 5-c; 6-g; 7-f</string>
+	<string name="q167b">b) 1-b; 2-c; 3-e; 4-a; 5-d; 6-f; 7-g</string>
+	<string name="q167c">c) 1-b; 2-e; 3-c; 4-d; 5-a; 6-g; 7-f</string>
+	<string name="q167d">d) 1-c; 2-b; 3-e; 4-a; 5-d; 6-f; 7-g</string>
+	<string name="q167e">e) 1-c; 2-e; 3-b; 4-d; 5-a; 6-g; 7-f</string>
+	<string name="q168"> As áreas abaixo dizem respeito ao nível 3 Definido do CMMI versão 1.2 (CMMI-DEV), relacione as áreas as suas respectivas descrições:\n
+	    1. Desenvolvimento de requisitos;\n 
+	    2. Solução  técnica;\n 
+	    3. Integração de produto;\n 
+	    4. Verificação;\n 
+	    5. Validação;\n 
+	    6. Foco  de  processo  organizacional;\n 
+	    7. Definição de processo organizacional;\n 
+	    8. Treinamento  organizacional;\n 
+	    9. Gerenciamento integrado de projeto;\n 
+	    10. Gerenciamento de riscos;\n 
+	    11. Análise de decisão e resolução;\n 
+	    a. realização da demonstração do produto no ambiente definido, demonstrando se esse possui todas as especificações e requisitos definidos;\n
+	    b. para a melhor realização de suas funções, os envolvidos do projeto devem estar cientes e bem treinados sobre suas funções. Para tanto, são ministrados cursos, palestras e reuniões para que os funcionários possam adquirir conhecimento e realizar de forma eficaz suas tarefas e atividades;\n
+	    c. realização de estudo para a verificação das deficiências que os processos e a organização possuem, seguido de um planejamento e implantação de melhorias baseadas no estudo elaborado;\n
+	    d. onde é trabalhada a comunicação entre as equipes envolvidas no projeto;\n
+	    e. estabelecimento dos padrões da organização;\n
+	    f. processo onde é avaliado se o desenvolvimento do produto é realizado corretamente;\n
+	    g. processo onde é desenvolvido e implementado o conjunto de soluções para os requisitos apontados;\n
+	    h. fase onde é realizada a análise e o desenvolvimento dos requisitos para a composição do produto;\n
+	    i. a tomada de decisões é um fato importante no projeto. Nesse processo são realizados os critérios que se devem seguir para uma tomada de decisão;\n
+	    j. para garantir a entrega do produto, nesta etapa é realizada a junção de componentes, funções, módulos e outros produtos;\n
+	    k. nesse processo são antecipadamente gerenciados os riscos que podem vir a acontecer, funcionando como um plano B ou uma válvula de escape.</string>
+	<string name="q168a">a) 1-g; 2-h; 3-f; 4-a; 5-c; 6-b; 7-d; 8-e; 9-k; 10-i; 11-j</string>
+	<string name="q168b">b) 1-h; 2-g; 3-j; 4-f; 5-a; 6-c; 7-e; 8-b; 9-d; 10-k; 11-i</string>
+	<string name="q168c">c) 1-g; 2-h; 3-f; 4-a; 5-c; 6-b; 7-d; 8-e; 9-k; 10-i; 11-j</string>
+	<string name="q168d">d) 1-h; 2-g; 3-j; 4-f; 5-a; 6-c; 7-b; 8-e; 9-d; 10-k; 11-i</string>
+	<string name="q168e">e) 1-a; 2-h; 3-f; 4-c; 5-g; 6-d; 7-e; 8-b; 9-k; 10-i; 11-j</string>
+	<string name="q169"> As áreas abaixo dizem respeito ao nível 4 Quantitativamente Gerenciado e nível 5 Otimização do CMMI versão 1.2 (CMMI-DEV), relacione as áreas as suas respectivas descrições:\n
+	    1. Análise casual e resolução;\n
+	    2. Gerenciamento quantitativo de projeto;\n
+	    3. Gestão  de  processo  organizacional;\n
+	    4. Desempenho  de  processo  organizacional;\n
+	    a. criar condições que comprovem que houve melhorias no desempenho dos processos;\n
+	    b. processo onde são identificados os problemas e defeitos do produto, assim como são planejadas ações para a prevenção de problemas futuros;\n
+	    c. esse processo possui a função de estabelecer linhas de base e os modelos para a gestão quantitativa, além de garantir um entendimento do conjunto de processos da organização;\n
+	    d. onde são gerenciados quantitativamente os processos definidos e que foram realizados para o alcance da qualidade e desempenho.</string>
+	<string name="q169a">a) 1-a; 2-c; 3-b; 4-d</string>
+	<string name="q169b">b) 1-a; 2-c; 3-d; 4-b</string>
+	<string name="q169c">c) 1-b; 2-d; 3-a; 4-c</string>
+	<string name="q169d">d) 1-b; 2-c; 3-d; 4-a</string>
+	<string name="q169e">e) 1-c; 2-d; 3-b; 4-a</string>
+	<string name="q170"> O que são Organismos normativos?</string>
+	<string name="q170a">a) Organismos normativos são instituições que ditam regras criadas com base no trabalho de especialistas</string>
+	<string name="q170b">b) Organismos normativos são instituições onde é trabalhada a comunicação entre as equipes envolvidas no projeto</string>
+	<string name="q170c">c) Organismos normativos são instituições onde é realizada a junção de componentes, funções, módulos e outros produtos</string>
+	<string name="q170d">d) Organismos normativos são instituições que possui todas as especificações e requisitos definidos</string>
+	<string name="q170e">e) Organismos normativos são instituições que possui a função de estabelecer linhas de base e os modelos para a gestão quantitativa</string>
+	<string name="q171"> A ISO _________ é de longe a estrutura de qualidade melhor estabelecida, sendo utilizada atualmente por mais de 750 mil organizações em 161 países. Ela define o __________ não só para sistemas de gestão de _____________, mas para sistemas de gestão em geral.</string>
+	<string name="q171a">a) 9000, arcabouço, software</string>
+	<string name="q171b">b) 9000, arcabouço, qualidade</string>
+	<string name="q171c">c) 9001, padrão, qualidade</string>
+	<string name="q171d">d) 9001, padrão, software</string>
+	<string name="q171e">e) 9002, padrão, qualidade</string>
+	<string name="q172"> Os Organismos normativos ditam regras que servem para:\n
+	    1. realizar especificações de produtos;\n
+	    2. organizar o fornecimento de serviços;\n
+	    3. a elaboração da legislação em diversos países.
+	    </string>
+	<string name="q172a">a) 1 e 2</string>
+	<string name="q172b">b) 1 e 3</string>
+	<string name="q172c">c) 2 e 3</string>
+	<string name="q172d">d) 1, 2 e 3</string>
+	<string name="q172e">e) Nenhuma das alternativas</string>
+	<string name="q173"> Seguindo a hierarquia dos órgãos regulamentadores, selecione o item que possui o órgão máximo:</string>
+	<string name="q173a">a) AMN</string>
+	<string name="q173b">b) IPQ</string>
+	<string name="q173c">c) ANSI</string>
+	<string name="q173d">d) ABNT</string>
+	<string name="q173e">e) ISO</string>
+	<string name="q174"> Seguindo a hierarquia dos órgãos regulamentadores, selecione o item que possui apenas órgão nacionais:</string>
+	<string name="q174a">a) ISO, ABNT, ANSI, IPQ</string>
+	<string name="q174b">b) ABNT, ANSI, IPQ, IANORQ</string>
+	<string name="q174c">c) ANSI, AMN, COPANT, IPQ</string>
+	<string name="q174d">d) ABNT, ISO, ABNT, COPANT</string>
+	<string name="q174e">e) ISO, AMN, IPQ, ANSI</string>
+	<string name="q175"> Seguindo a hierarquia dos órgãos regulamentadores, selecione o item que possui apenas órgão regionais:</string>
+	<string name="q175a">a) AMN, COPANT</string>
+	<string name="q175b">b) IPQ, IANORQ</string>
+	<string name="q175c">c) COPANT, IPQ</string>
+	<string name="q175d">d) ABNT, COPANT</string>
+	<string name="q175e">e) IPQ, ANSI</string>
+	<string name="q176"> Conecte as siglas aos devidos órgãos regulamentadores:\n
+	    1. ISO\n
+	    2. ABNT\n
+	    3. ANSI\n
+	    4. IPQ\n
+	    5. IANORQ\n
+	    6. AMN\n
+	    7. COPANT\n
+	    a. American National Standards Institute – Estados Unidos;\n
+	    b. Comissão Pan-Americana de Normas Técnicas – Continente Americano.\n
+	    c. Instituto Português de Qualidade – Portugal;\n
+	    d. Instituto Angolano de Normalização e Qualidade – Angola;\n
+	    e. Associação Mercosul de Normalização – Mercosul;\n
+	    f. Organização Internacional para Padronização;\n
+	    g. Associação Brasileira de Normas Técnicas – Brasil;
+	    </string>
+	<string name="q176a">a) 1-e; 2-f; 3-c; 4-g; 5-d; 6-a; 7-b</string>
+	<string name="q176b">b) 1-e; 2-g; 3-d; 4-a; 5-f; 6-c; 7-b</string>
+	<string name="q176c">c) 1-f; 2-g; 3-a; 4-c; 5-d; 6-e; 7-b</string>
+	<string name="q176d">d) 1-f; 2-a; 3-e; 4-d; 5-g; 6-c; 7-b</string>
+	<string name="q176e">e) 1-g; 2-b; 3-f; 4-c; 5-d; 6-e; 7-a</string>
+	<string name="q177"> O que é ISO?</string>
+	<string name="q177a">a) ISO é a organização que comando a comunidade de padronização no Brasil e cria normas de qualidade ABNT. ISO em grego significa igualdade</string>
+	<string name="q177b">b) ISO é a organização que não reúne a comunidade de padronização e não cria normas de qualidade. ISO em grego significa desigualdade</string>
+	<string name="q177c">c) ISO é a organização que reúne os presidentes dos todos os países para realizar a padronização e criar normas de qualidade. ISO em grego significa igualdade</string>
+	<string name="q177d">d) ISO é a organização que reúne a comunidade de padronização e cria normas de qualidade. ISO em grego significa igualdade</string>
+	<string name="q177e">e) ISO é a organização que gerencia a compra e venda de padronização no Brasil e no mundo. ISO em grego significa igualdade</string>
+	<string name="q178"> O que é IEC?</string>
+	<string name="q178a">a) é a organização encarregada das padronizações de tecnologias pedagógicas e de tecnologias associadas a essas.</string>
+	<string name="q178b">b) é a organização encarregada das padronizações de tecnologias médicas e de tecnologias associadas a essas.</string>
+	<string name="q178c">c) é a organização encarregada das padronizações de tecnologias químicas e de tecnologias associadas a essas.</string>
+	<string name="q178d">d) é a organização encarregada das padronizações de tecnologias de construção e de tecnologias associadas a essas.</string>
+	<string name="q178e">e) é a organização encarregada das padronizações de tecnologias elétricas e de tecnologias associadas a essas.</string>
+	<string name="q179"> A função da série ISO 9000 é a __________ do cliente pela transparência do _________ andamento do projeto e de todos os ___________ que mostram a qualidade da empresa.</string>
+	<string name="q179a">a) satisfação, mau, fases</string>
+	<string name="q179b">b) satisfação, bom, estágios</string>
+	<string name="q179c">c) satisfação, mau, fases</string>
+	<string name="q179d">d) insatisfação, bom, estágios</string>
+	<string name="q179e">e) insatisfação, mau, fases</string>
+	<string name="q180"> ____________ tipo de empresa pode utilizar as normas ISO ________ – seja ela pequena ou grande, privada ou ______________.</string>
+	<string name="q180a">a) Qualquer, 9000, governamental</string>
+	<string name="q180b">b) Nenhum, 9000, informal</string>
+	<string name="q180c">c) Qualquer, 9001, governamental</string>
+	<string name="q180d">d) Nenhum, 9001, informal</string>
+	<string name="q180e">e) Qualquer, 9002, governamental</string>
+	<string name="q181"> A série ISO ____________ serve para qualificar o sistema de gestão de ___________ da empresa, garantindo que produtos fabricados pelo processo dessa empresa tenham qualidade superior aos produtos de outras empresas. Possuir a qualificação ISO ________ significa que os produtos criados por certo processo irão possuir os mesmos padrões de __________.</string>
+	<string name="q181a">a) 9000, requisitos, 9001, portabilidade</string>
+	<string name="q181b">b) 9000, usabilidade, 9000, interoperabilidade</string>
+	<string name="q181c">c) 9000, qualidade, 9000, qualidade</string>
+	<string name="q181d">d) 9001, requisitos, 9001, portabilidade</string>
+	<string name="q181e">e) 9001, qualidade, 9001, interoperabilidade</string>
+	<string name="q182"> Uma empresa qualificada como ISO 9000 deve possuir alguns princípios básicos, alguns deles são:\n
+	    1. a documentação de fácil acesso;\n
+	    2. equipamentos em bom estado de conservação e manutenção;\n
+	    3. auditorias internas;\n
+	    4. realizar constantes autoanálise;\n
+	    5. tomar apenas medidas preventivas, as corretivas não são necessárias para o bom funcionamento dos processos.</string>
+	<string name="q182a">a) 1, 2 e 3</string>
+	<string name="q182b">b) 1, 2 e 4</string>
+	<string name="q182c">c) 2, 3 e 5</string>
+	<string name="q182d">d) 1, 2, 3 e 4</string>
+	<string name="q182e">e) 1, 2, 3, 4 e 5</string>
+	<string name="q183"> Essa norma utiliza uma abordagem de melhoria no desenvolvimento e na implementação de um sistema de gestão de qualidade, visando obter maior grau de satisfação do cliente no atendimento de seus objetivos.</string>
+	<string name="q183a">a) 9001</string>
+	<string name="q183b">b) 9002</string>
+	<string name="q183c">c) 9003</string>
+	<string name="q183d">d) 9004</string>
+	<string name="q183e">e) 9005</string>
+	<string name="q184"> A ISO 9001 possui diversas vantagens para a empresa que a adota, dentre essas vantagens podemos citar:</string>
+	<string name="q184a">a) Melhoria em processos de gerenciamento de riscos, aumentando a porcentagem de sucesso do projeto e Melhoria em processos intrassetoriais, nos quais a comunicação é altamente valorizada, expondo os possíveis problemas que as equipes envolvidas no projeto possam sofrer (ou sofrem)</string>
+	<string name="q184b">b) redução do desperdício, por conta do bom planejamento, de uma documentação ampla e do foco nos processos operacionais e Melhoria em processos intrassetoriais, nos quais a comunicação é altamente valorizada, expondo os possíveis problemas que as equipes envolvidas no projeto possam sofrer (ou sofrem)</string>
+	<string name="q184c">c) criar condições que comprovem que houve melhorias no desempenho dos processos e redução do desperdício, por conta do bom planejamento, de uma documentação ampla e do foco nos processos operacionais</string>
+	<string name="q184d">d) criar condições que comprovem que houve melhorias no desempenho dos processos e melhoria em processos de gerenciamento de riscos, aumentando a porcentagem de sucesso do projeto</string>
+	<string name="q184e">e) Melhoria em processos de gerenciamento de riscos, aumentando a porcentagem de sucesso do projeto, redução do desperdício, por conta do bom planejamento, de uma documentação ampla e do foco nos processos operacionais e Melhoria em processos intrassetoriais, nos quais a comunicação é altamente valorizada, expondo os possíveis problemas que as equipes envolvidas no projeto possam sofrer (ou sofrem).</string>
+	<string name="q185"> O modelo Planejar, Fazer, Checar, Agir – PDCA – está relacionado a qual norma?</string>
+	<string name="q185a">a) 9001</string>
+	<string name="q185b">b) 9002</string>
+	<string name="q185c">c) 9003</string>
+	<string name="q185d">d) 9004</string>
+	<string name="q185e">e) 9005</string>
+	<string name="q186"> Julgue os itens a seguir e em seguida assinale a resposta correta:\n
+	    1. a ISO 9001 é derivada da norma britância BS5750;\n
+	    2. ISO 9001 foi criada com o intuito de aprimorar mais ainda a qualidade e a padronização de um produto;\n
+	    3. a norma BS5750 trata e possui em seus objetivos a satisfação do cliente;\n
+	    4. ISO 9001 é uma das normas mais usadas mundialmente em empresas que almejam a melhoria contínua a partir do monitoramento e do aprimoramento constante. </string>
+	<string name="q186a">a) 1 e 2</string>
+	<string name="q186b">b) 1 e 3</string>
+	<string name="q186c">c) 1, 2 e 3</string>
+	<string name="q186d">d) 1, 2, e 4</string>
+	<string name="q186e">e) 1, 2, 3 e 4</string>
+	<string name="q187"> Para que serve a ISO 9000-3?</string>
+	<string name="q187a">a) a ISO 9000-3 possui os mesmos caminhos e procedimentos da norma ISO 9001, mas aplicados a manutenção de máquinas elétricas</string>
+	<string name="q187b">b) a ISO 9000-3 possui os mesmos caminhos e procedimentos da norma ISO 9001, mas aplicados a conceitos como desenvolvimento, fornecimento e manutenção de software.</string>
+	<string name="q187c">c) a ISO 9000-3 possui os mesmos caminhos e procedimentos da norma ISO 9001, mas aplicados ao ciclo de vida de software</string>
+	<string name="q187d">d) a ISO 9000-3 possui os mesmos caminhos e procedimentos da norma ISO 9001, mas aplicados a qualidade no atendimento ao cliente</string>
+	<string name="q187e">e) a ISO 9000-3 possui os mesmos caminhos e procedimentos da norma ISO 9001, mas aplicados ao gerenciamento de requisitos</string>
+	<string name="q188"> Julgue os itens a seguir e em seguida assinale a resposta correta:\n
+	    1. para cada conceito ou item que reside na norma ISO 9001, temos um conceito correspondente na ISO 9000-3 aplicado à qualidade de software;\n
+	    2. a ISO 9000-3 realiza o tratamento de problemas com o uso da Melhoria Contínua do Processo de Software – SPI –, como feito em modelos de referência na área – como o CMMI ou a norma ISO/IEC 15504;\n
+	    3. a ISO 9000-3 demonstra o caminho para que as organizações conduzam seus processos de forma eficiente, para atingirem os resultados esperados;\n
+	    4. a norma ISO 9000-3 apresenta quais processos devem ser utilizados pelas organizações; </string>
+	<string name="q188a">a) 1 e 2</string>
+	<string name="q188b">b) 1 e 3</string>
+	<string name="q188c">c) 1 e 4</string>
+	<string name="q188d">d) 1, 2, e 4</string>
+	<string name="q188e">e) 1, 2, 3 e 4</string>
+	<string name="q189"> Antes de ser atualizada, a ISO 9000-3 fazia a divisão de suas diretrizes em três partes principais, quais são?</string>
+	<string name="q189a">a) Responsabilidade, Processos Fundamentais e Processos de Apoio</string>
+	<string name="q189b">b) Processos Organizacionais, Atividades de Suporte e Processos de Apoio</string>
+	<string name="q189c">c) Modularidade, Responsabilidade e Processos Fundamentais</string>
+	<string name="q189d">d) Estrutura, Atividade de Suporte e Processos Fundamentais</string>
+	<string name="q189e">e) Estrutura, Atividade de Suporte e Atividades do Ciclo de Vida</string>
+	<string name="q190"> Abaixo temos a relação das diretrizes da ISO 9000-3 antes de ser atualizada. Ligue cada divisão da ISO 9000-3 a sua respectiva descrição:\n
+	    1. Atividades do Ciclo de Vida
+	    2. Estrutura 
+	    3. Atividades de Suporte
+	    a. é a parte que cuida de todo e qualquer aspecto organizacional ligado ao sistema de qualidade;
+	    b. é a parte que dita a condução de atividades, como desenvolvimento do software, documentação, manutenção, etc.;
+	    c. são as atividades relacionadas ao ciclo de vida do produto;
+	    </string>
+	<string name="q190a">a) 1-c; 2-a; 3-b</string>
+	<string name="q190b">b) 1-c; 2-b; 3-a</string>
+	<string name="q190c">c) 1-b; 2-a; 3-c</string>
+	<string name="q190d">d) 1-b; 2-c; 3-a</string>
+	<string name="q190e">e) 1-a; 2-c; 3-b</string>
+	<string name="q191"> As diretrizes: estrutura, atividade de suporte e atividade do ciclo de vida - deixaram de ser usadas quando a __________ foi atualizada. Após essa atualização, a norma passou a utilizar exatamente o mesmo ___________ e as mesmas diretrizes usados na norma ___________.</string>
+	<string name="q191a">a) ISO 9001-3, mapeamento, ISO 9000</string>
+	<string name="q191b">b) ISO 9002-3, mapeamento, ISO 9001</string>
+	<string name="q191c">c) ISO 9003-3, mapeamento, ISO 9000</string>
+	<string name="q191d">d) ISO 9000-3, mapeamento, ISO 9001</string>
+	<string name="q191e">e) ISO 9004, mapeamento, ISO 9002</string>
+	<string name="q192"> Para que serve a ISO/IEC 12207?</string>
+	<string name="q192a">a) ISO/IEC 12207 veio para realizar a demonstração do produto no ambiente definido, demonstrando se esse possui todas as especificações e requisitos definidos;</string>
+	<string name="q192b">b) ISO/IEC 12207 veio para estabelecer uma linguagem comum entre o desenvolvedor, o cliente e todos os stakeholders (partes envolvidas) do projeto. Essa linguagem é estabelecida através da clareza dos ciclos e também de processos bem definidos</string>
+	<string name="q192c">c) ISO/IEC 12207 veio para estabelecer uma melhoria no desenvolvimento e na implementação de um sistema de gestão de qualidade</string>
+	<string name="q192d">d) ISO/IEC 12207 veio para criar condições que comprovem que houve melhorias no desempenho dos processos;</string>
+	<string name="q192e">e) ISO/IEC 12207 veio para identificar os problemas e defeitos do produto, assim como são planejadas ações para a prevenção de problemas futuros.</string>
+	<string name="q193"> Como é conhecida a ISO/IEC 12207?</string>
+	<string name="q193a">a) Essa norma é conhecida como a norma de processo de levantamento de requisitos</string>
+	<string name="q193b">b) Essa norma é conhecida como a norma de processo de compra e venda de software</string>
+	<string name="q193c">c) Essa norma é conhecida como a norma de processos do ciclo de vida do software</string>
+	<string name="q193d">d) Essa norma é conhecida como a norma da melhoria no desenvolvimento e na implementação de um sistema de gestão de qualidade</string>
+	<string name="q193e">e) Essa norma é conhecida como a norma do desenvolvimento, fornecimento e manutenção de software.</string>
+	<string name="q194"> Quais são os dois princípios da norma ISO/IEC 12207?</string>
+	<string name="q194a">a) Responsabilidade e Processos de Apoio</string>
+	<string name="q194b">b) Processos Organizacionais e Processos de Apoio</string>
+	<string name="q194c">c) Modularidade e Responsabilidade</string>
+	<string name="q194d">d) Modularidade e Processos Fundamentais</string>
+	<string name="q194e">e) Estrutura e Atividades do Clico de Vida</string>
+	<string name="q195"> Levando em consideração a ISO/IEC 12207, para que serve o princípio da Modularidade?</string>
+	<string name="q195a">a) são os processos que ajudam a organização e a gerência estabelecer uma boa empresa</string>
+	<string name="q195b">b) são os processos utilizados para a garantia da qualidade do software.</string>
+	<string name="q195c">c) são os processos que ditam as regras no contrato entre o fornecedor e o cliente</string>
+	<string name="q195d">d) para  cada  processo  estabelecido  é  designado  um  membro da  equipe  a  ser  responsável  por  aquele  processo;  com  isso,  várias  pessoas  estarão envolvidas com o projeto</string>
+	<string name="q195e">e) nesse princípio, os processos devem ser bem amarrados e fortemente conectados; porém, a interface entre os processos deve ser mínima</string>
+	<string name="q196"> Levando em consideração a ISO/IEC 12207, para que serve o princípio da Modularidade?</string>
+	<string name="q196a">a) são os processos que ajudam a organização e a gerência estabelecer uma boa empresa</string>
+	<string name="q196b">b) são os processos utilizados para a garantia da qualidade do software.</string>
+	<string name="q196c">c) são os processos que ditam as regras no contrato entre o fornecedor e o cliente</string>
+	<string name="q196d">d) para  cada  processo  estabelecido  é  designado  um  membro da  equipe  a  ser  responsável  por  aquele  processo;  com  isso,  várias  pessoas  estarão envolvidas com o projeto</string>
+	<string name="q196e">e) nesse princípio, os processos devem ser bem amarrados e fortemente conectados; porém, a interface entre os processos deve ser mínima</string>
+	<string name="q197"> Quais são as três classes de processo que a ISO/IEC 12207 agrupa em processos primários de atividades que farão ou poderão fazer parte da execução do ciclo de vida?</string>
+	<string name="q197a">a) Processos Fundamentais, Processos de Apoio e Processos Organizacionais</string>
+	<string name="q197b">b) Processos de Aquisição, Processos de Documentação e Processos de Gerencia</string>
+	<string name="q197c">c) Processos de Infraestrutura, Processos de Validação e Processos de Operação</string>
+	<string name="q197d">d) Processos Fundamentais, Processos de Infraestrutura e Processos Organizacionais</string>
+	<string name="q197e">e) Processos Fundamentais, Processos de Apoio e Processos de Documentação</string>
+	<string name="q198"> Quais são os processos fundamentais da ISO/IEC 12207?</string>
+	<string name="q198a">a) Aquisição, Fornecimento, Validação, Melhoria e Manutenção</string>
+	<string name="q198b">b) Aquisição, Fornecimento, Desenvolvimento, Operação e Manutenção</string>
+	<string name="q198c">c) Documentação, Gerência de Configuração, Garantia de Qualidade, Verificação, Validação, Revisão Conjunta, Auditoria e Resolução de Problemas </string>
+	<string name="q198d">d) Gerencia, Infraestrutura, Melhoria e Recursos Humanos</string>
+	<string name="q198e">e) Aquisição, Documentação, Infraestrutura e Manutenção </string>
+	<string name="q199"> Quais são os processos de apoio da ISO/IEC 12207?</string>
+	<string name="q199a">a) Aquisição, Fornecimento, Validação, Melhoria e Manutenção</string>
+	<string name="q199b">b) Aquisição, Fornecimento, Desenvolvimento, Operação e Manutenção</string>
+	<string name="q199c">c) Documentação, Gerência de Configuração, Garantia de Qualidade, Verificação, Validação, Revisão Conjunta, Auditoria e Resolução de Problemas </string>
+	<string name="q199d">d) Gerencia, Infraestrutura, Melhoria e Recursos Humanos</string>
+	<string name="q199e">e) Aquisição, Documentação, Infraestrutura e Manutenção </string>
+	<string name="q200"> Quais são os processos organizacionais da ISO/IEC 12207?</string>
+	<string name="q200a">a) Aquisição, Fornecimento, Validação, Melhoria e Manutenção</string>
+	<string name="q200b">b) Aquisição, Fornecimento, Desenvolvimento, Operação e Manutenção</string>
+	<string name="q200c">c) Documentação, Gerência de Configuração, Garantia de Qualidade, Verificação, Validação, Revisão Conjunta, Auditoria e Resolução de Problemas </string>
+	<string name="q200d">d) Gerencia, Infraestrutura, Melhoria e Recursos Humanos</string>
+	<string name="q200e">e) Aquisição, Documentação, Infraestrutura e Manutenção </string>
+	<string name="q201"> Levando em consideração os processos fundamentais da ISO/IEC 12207, ligue os processos a suas respectivas descrição:\n
+	    1. Aquisição\n
+	 	2. Fornecimento\n
+		3. Desenvolvimento\n
+		4. Operação\n
+		5. Manutenção \n
+		a. a função desse processo é transformar requisitos em um sistema de software funcional, que atenda aos requisitos propostos;\n
+		b. a manutenção é o processo no qual o desenvolvedor realiza modificações e correções no software após esse já estar em uso;\n
+		c. é o ato de fornecer um produto, o qual especificamente seria um produto de software;\n
+		d. tem como função obter produtos ou serviços terceirizados para suprir suas necessidades;\n
+		e. o propósito desse processo é realizar o sistema de software no campo para o qual é destinado, esclarecendo, assim, possíveis dúvidas e problemas dos usuários.
+		</string>
+	<string name="q201a">a) 1-b, 2-c, 3-a, 4-e, 5-d</string>
+	<string name="q201b">b) 1-b, 2-c, 3-e, 4-d, 5-a</string>
+	<string name="q201c">c) 1-c, 2-d, 3-a, 4-e, 5-b</string>
+	<string name="q201d">d) 1-c, 2-d, 3-e, 4-b, 5-a</string>
+	<string name="q201e">e) 1-d, 2-c, 3-a, 4-e, 5-b</string>
+	<string name="q202"> São os processos que ditam as regras no contrato entre o fornecedor e o cliente, onde são tratadas a execução do desenvolvimento do software e a manutenção do mesmo durante o ciclo de desenvolvimento:</string>
+	<string name="q202a">a) Processos Fundamentais</string>
+	<string name="q202b">b) Dimensão de Processo</string>
+	<string name="q202c">c) Processos de Apoio</string>
+	<string name="q202d">d) Dimensão de Capacidade</string>
+	<string name="q202e">e) Processos Organizacionais </string>
+	<string name="q203"> São os processos utilizados para a garantia da qualidade do software. Eles visam melhores conformidade e segurança no desenvolvimento de um software, mas não são fundamentais:</string>
+	<string name="q203a">a) Processos Fundamentais</string>
+	<string name="q203b">b) Dimensão de Processo</string>
+	<string name="q203c">c) Processos de Apoio</string>
+	<string name="q203d">d) Dimensão de Capacidade</string>
+	<string name="q203e">e) Processos Organizacionais </string>
+	<string name="q204"> São os processos que ajudam a organização e a gerência estabelecer uma boa empresa:</string>
+	<string name="q204a">a) Processos Fundamentais</string>
+	<string name="q204b">b) Dimensão de Processo</string>
+	<string name="q204c">c) Processos de Apoio</string>
+	<string name="q204d">d) Dimensão de Capacidade</string>
+	<string name="q204e">e) Processos Organizacionais </string>
+	<string name="q205"> Levando em consideração os processos de apoio da ISO/IEC 12207, ligue os processos a suas respectivas descrição:\n
+	    1. Documentação\n
+		2. Gerência de Configuração\n
+		3. Garantia de Qualidade\n
+		4. Verificação\n
+		5. Validação\n
+		6. Revisão Conjunta\n
+		7. Auditoria\n 
+		8. Resolução de Problemas\n
+		a. processo que confirma se os requisitos são devidamente atendidos pelo produto;\n
+		b. processo que tem como propósito registrar toda e qualquer informação do software, como: comandos, manual do usuário, descrição, etc.;\n
+		c. realiza a análise que verifica se o produto reflete os requisitos especificados;\n
+		d. processo que tem como função sustentar/garantir o entendimento entre gerência e as partes envolvidas;\n
+		e. processo que tem a função de estabelecer a integridade dos produtos do trabalho de determinado processo do projeto;\n
+		f. tem o propósito de garantir que todos os problemas questionados serão analisados e resolvidos. \n
+		g. processo que cuida da garantia do produto, ou seja, verifica se o produto está em conformidade com os requisitos;\n
+		h. é o processo que tem o propósito de averiguar a funcionalidade do produto contra os requisitos;
+		</string>
+	<string name="q205a">a) 1-a, 2-e, 3-g, 4-c, 5-b, 6-h, 7-d, 8-f</string>
+	<string name="q205b">b) 1-b, 2-e, 3-g, 4-c, 5-a, 6-d, 7-h, 8-f</string>
+	<string name="q205c">c) 1-c, 2-e, 3-g, 4-b, 5-a, 6-d, 7-f, 8-h</string>
+	<string name="q205d">d) 1-d, 2-g, 3-e, 4-c, 5-a, 6-h, 7-b, 8-f</string>
+	<string name="q205e">e) 1-e, 2-b, 3-f, 4-a, 5-c, 6-d, 7-g, 8-h</string>
+	<string name="q206"> Levando em consideração os processos de apoio da ISO/IEC 12207, ligue os processos a suas respectivas descrição:\n
+	    1. Gerencia\n
+		2. Infraestrutura\n 
+		3. Melhoria\n
+		4. Recursos Humanos\n 
+		a. processo que tem as funções de melhorar, avaliar e controlar o ciclo de vida do software em desenvolvimento;\n
+		b. processos que mantém a consistência dos recursos humanos com o negócio.\n
+		c. processo que organiza, controla e monitora o cumprimento dos processos;\n
+		d. processo que verifica e faz com que a empresa possua uma infraestrutura estável e confiável.
+		</string>
+	<string name="q206a">a) 1-a, 2-b, 3-d, 4-c</string>
+	<string name="q206b">b) 1-b, 2-a, 3-c, 4-d</string>
+	<string name="q206c">c) 1-c, 2-d, 3-b, 4-a</string>
+	<string name="q206d">d) 1-c, 2-d, 3-a, 4-b</string>
+	<string name="q206e">e) 1-d, 2-c, 3-a, 4-b</string>
+	<string name="q207"> O que é a norma ISO/IEC 15504?</string>
+	<string name="q207a">a) A norma ISO/IEC 15504, também conhecida como Software Process Improvement and Capability Determination – SPICE –, foi criada como um framework. É a norma que define o Processo de Desenvolvimento do Software.</string>
+	<string name="q207b">b) A norma ISO/IEC 15504, também conhecida como Software Process Improvement and Capability Determination – SPICE –, foi criada como um framework. É a norma que define o Ciclo de Vida do Software</string>
+	<string name="q207c">c) A norma ISO/IEC 15504, também conhecida como Software Process Improvement and Capability Determination – SPICE –, foi criada como um framework. É a norma que define o processo de arquivamento de documentos</string>
+	<string name="q207d">d) A norma ISO/IEC 15504, também conhecida como Software Process Improvement and Capability Determination – SPICE –, foi criada como um framework. É a norma que define o processo de gerenciamento de pessoas</string>
+	<string name="q207e">e) A norma ISO/IEC 15504, também conhecida como Software Process Improvement and Capability Determination – SPICE –, foi criada como um framework. É a norma que define o ciclo de vida de uma empresa </string>
+	<string name="q208"> Nesse modelo são usados conjuntos de boas práticas da Engenharia de Software, que são considerados fundamentais. Assim como no modelo CMMI, a essa norma possui níveis de capacidade que servem para que a empresa se autoavalie e aplique planos para a ampliação da melhoria de seus processos – também servem para que a empresa seja avaliada por outras organizações e instituições. Seus níveis de capacidade são: incompleto, executado, gerenciado, estabelecido, previsível e otimizado. Qual norma é essa?</string>
+	<string name="q208a">a) A norma ISO/IEC 12207</string>
+	<string name="q208b">b) A norma ISO/IEC 15504</string>
+	<string name="q208c">c) A norma ISO/IEC 9000-3</string>
+	<string name="q208d">d) A norma ISO/IEC 9001</string>
+	<string name="q208e">e) A norma ISO/IEC 9002-3</string>
+	<string name="q209"> Quais são os níveis da ISO/IEC 15504?</string>
+	<string name="q209a">a) inicial, repetível, definido, gerenciado, otimizado</string>
+	<string name="q209b">b) inicial, gerenciado, definido, gerenciado quantitativamente, otimizado</string>
+	<string name="q209c">c) Incompleto, executando, gerenciado, estabelecido, previsível, otimizado</string>
+	<string name="q209d">d) incompleto, executando, gerenciado, definido, gerenciado quantitativamente, otimizado</string>
+	<string name="q209e">e) Incompleto, repetível, gerenciado, definido, otimizado</string>
+	<string name="q210"> Ligue os seguintes níveis da ISO/IEC 15504 a sua devida definição:\n
+	    1. Incompleto\n
+		2. Executado\n
+		3. Gerenciado\n
+		4. Estabelecido\n
+		5. Previsível\n
+		6. Otimizado\n
+		a. É o planejamento da execução dos processos, onde a equipe do projeto faz a comparação do que foi planejado com o que foi executado.\n
+		b. O processo deve ser executado com o objetivo de completar as tarefas necessárias para a execução de um processo.\n
+		c. O processo é gerenciado quantitativamente por estudos estatísticos.\n
+		d. O processo é construído tomando a direção do processo que já existe; porém é sustentada uma descrição do processo.\n
+		e. Este nível é adaptado para que as necessidades da organização sejam todas supridas por meio da alteração e da adaptação do processo gerenciado quantitativamente.\n
+		f. Esse nível retrata um processo que muitas vezes não é executado, ou é executado parcialmente.
+	    </string>
+	<string name="q210a">a) 1-a, 2-b, 3-f, 4-d, 5-c, 6-e</string>
+	<string name="q210b">b) 1-b, 2-f, 3-a, 4-d, 5-e, 6-c</string>
+	<string name="q210c">c) 1-d, 2-b, 3-a, 4-f, 5-c, 6-e</string>
+	<string name="q210d">d) 1-e, 2-b, 3-a, 4-d, 5-f, 6-c</string>
+	<string name="q210e">e) 1-f, 2-b, 3-a, 4-d, 5-c, 6-e</string>
+	<string name="q211"> Quais são as duas dimensões da ISO/IEC 15504 ou SPICE?</string>
+	<string name="q211a">a) Dimensão de Processo e Processos de Apoio</string>
+	<string name="q211b">b) Processos Organizacionais e Dimensão de Processo</string>
+	<string name="q211c">c) Processos Fundamentais e Dimensão de Capacidade</string>
+	<string name="q211d">d) Dimensão de Processo e Dimensão de Capacidade</string>
+	<string name="q211e">e) Processos de Apoio e Processos Fundamentais</string>
+	<string name="q212"> Essa dimensão da ISO/IEC 15504 utiliza conceitos firmados em Engenharia de Software que são considerados essenciais. Um modelo que utiliza esta dimensão é a norma ISO/IEC 12207:</string>
+	<string name="q212a">a) Processos Fundamentais</string>
+	<string name="q212b">b) Dimensão de Processo</string>
+	<string name="q212c">c) Processos de Apoio</string>
+	<string name="q212d">d) Dimensão de Capacidade</string>
+	<string name="q212e">e) Processos Organizacionais </string>
+	<string name="q213"> Essa dimensão da ISO/IEC 15504 é dividida em cinco categorias de processo: Cliente-Fornecedor; Engenharia; Suporte; Gestão; Organização:</string>
+	<string name="q213a">a) Processos Fundamentais</string>
+	<string name="q213b">b) Dimensão de Processo</string>
+	<string name="q213c">c) Processos de Apoio</string>
+	<string name="q213d">d) Dimensão de Capacidade</string>
+	<string name="q213e">e) Processos Organizacionais </string>
+	<string name="q214"> Ligue as seguintes categorias da dimensão de capacidade da ISO/IEC 15504 a sua devida definição:\n
+		1. Cliente-Fornecedor\n
+		2. Engenharia\n
+		3. Suporte\n
+		4. Gestão\n
+		5. Organização\n
+		a. esses são os processos que estão relacionados à Engenharia de Software, e que cuidam de assuntos pertinentes à tecnologia, às práticas, ferramentas, aos modelos de maturidade, etc.;\n
+		b. esses processos são relacionados a qualquer gestão de projetos, de processos e de setores da organização;\n
+		c. esses são os processos que atendem às necessidades de gerir e implantar melhorias na organização.\n
+		d. são os processos que tratam de assuntos que envolvem as partes de principal interesse, os clientes e os desenvolvedores do software – o qual, nesse caso, é classificado como fornecedor;\n
+		e. são processos usados em diferentes projetos e em toda a organização durante todo o ciclo de vida do software, desde a documentação até a sua manutenção.
+	    </string>
+	<string name="q214a">a) 1-d, 2-a, 3-e, 4-b, 5-c</string>
+	<string name="q214b">b) 1-b, 2-c, 3-a, 4-d, 5-e</string>
+	<string name="q214c">c) 1-d, 2-b, 3-a, 4-e, 5-c</string>
+	<string name="q214d">d) 1-e, 2-b, 3-a, 4-d, 5-c</string>
+	<string name="q214e">e) 1-c, 2-b, 3-a, 4-d, 5-e</string>
+	<string name="q215"> Julgue os itens em relação a ISO/IEC 15504:\n
+		1. A norma ISO/IEC 15504 é usada por empresas que procuram realizar melhorias internas em seus processos\n
+		2. Essa norma tem o intuito de concretizar uma análise disciplinada dos processos utilizados em uma organização\n
+		3. identifica somente os pontos fracos da organização.
+		</string>
+	<string name="q215a">a) 1</string>
+	<string name="q215b">b) 2</string>
+	<string name="q215c">c) 1 e 2</string>
+	<string name="q215d">d) 1 e 3</string>
+	<string name="q215e">e) 1, 2 e 3</string>
+</resources>
